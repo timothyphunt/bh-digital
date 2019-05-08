@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Roboto');
+
+@import "./base/reset.scss";
+@import "./base/mixins.scss";
+@import "./base/index.scss";
+
+@import "./components/UI/Navbar.scss";
+
+@import "./components/Home/HomeHero.scss";
+@import "./components/Home/HomeServices.scss";
+@import "./components/Home/HomeAbout.scss";
+@import "./components/Home/HomeProjects.scss";

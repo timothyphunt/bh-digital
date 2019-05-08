@@ -1,0 +1,37 @@
+.homeProjects {
+    padding: 80px 0;
+    text-align: center;
+    p {
+        margin-bottom: 40px;
+    }
+}
+
+
+.homeProjects__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.homeProjects__buttons {
+    padding-bottom: 40px;
+    button {
+        margin: 0 10px;
+    }
+}
+
+.homeProjects__grid__project {
+    h1 {
+        margin-top: 20px;
+    }
+    img {
+        @include boxshadow;
+        object-fit: cover;
+        height: 337px;
+    }
+    
+}

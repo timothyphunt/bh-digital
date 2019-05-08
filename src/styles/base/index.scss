@@ -1,0 +1,61 @@
+// variables
+$bh-blue: #3954a5;
+$bh-blue-dark: #233364;
+$bh-blue-light: #5b74b7;
+$bh-blue-very-light: #97a8d6;
+$bh-black: #3a3a3a;
+$bh-grey: #6d6d6d;
+
+$font-lg: 50px;
+$font-md: 30px;
+
+
+
+//defaults
+
+body {
+    // font-family: 'Roboto', sans-serif;
+    // font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: $bh-grey;
+}
+
+h1, h2, h3, h4, h5, p {
+    line-height: 30px;
+}
+
+.title {
+    color: $bh-black;
+    font-size: $font-lg;
+    padding-bottom: 20px;
+}
+
+.subtitle {
+    color: $bh-black;
+    font-size: $font-md;
+    padding-bottom: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.btn-shadow {
+    @include boxshadow;
+}
+
+.btn-shadow--dark {
+    @include boxshadow--dark
+}
+
+.btn--blue {
+    background: $bh-blue;
+    color: white;
+    font-size: 12px;
+}
+
+
+
+

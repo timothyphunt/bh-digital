@@ -1,0 +1,24 @@
+.homeHero {
+    text-align: center;
+    background: rgb(151,168,214);
+    background: linear-gradient(to bottom right, rgba(55, 55, 55, 0.4), rgba(225, 225, 225, 0.4)), url('../../static/assets/lake.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    max-height: 500px;
+    display: flex;
+}
+
+.homeHero__text {
+    margin: auto auto;
+    h1 {
+        @include textshadow;
+        color: white;
+    }
+    h2 {
+        color: white;
+        margin-bottom: 20px;
+    }
+}

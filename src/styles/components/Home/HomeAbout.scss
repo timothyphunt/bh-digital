@@ -1,0 +1,29 @@
+.homeAbout {
+    background: lightgrey;
+    // background: linear-gradient(to bottom right, $bh-blue-very-light, white);
+    // color: white;
+}
+
+
+.homeAbout__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 80px 0;
+    img {
+        width: 100%;
+    }
+}
+
+.homeAbout__content__text {
+    padding: 0 20px;
+    h2 {
+        padding-bottom: 40px;
+    }
+    p {
+        padding-bottom: 20px;
+    }
+    button {
+        margin-top: 20px;
+    }
+}

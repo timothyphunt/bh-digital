@@ -1,0 +1,29 @@
+.homeServices {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.homeServices__panels {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 80px 0;
+}
+
+.homeSerivces__panel__img {
+    // height: 200px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.homeServices__panel {
+    @include boxshadow;
+}
+
+.homeServices__panel__text {
+    padding: 20px 0;
+    p {
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
+}
