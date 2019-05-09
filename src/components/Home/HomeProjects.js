@@ -33,8 +33,6 @@ class HomeProjects extends Component {
         })
     }
 
-
-
     render() {
         return (
             <section className="homeProjects container">
