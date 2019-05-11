@@ -16,6 +16,7 @@ const projects = [
     { title: 'Office NU', tags: ['Marketing'], img: Office },
 ];
 
+// finish following sections
 // finish grid
 class HomeProjects extends Component {
     state = {
