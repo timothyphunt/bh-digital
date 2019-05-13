@@ -17,6 +17,7 @@ const projects = [
 ];
 
 // finish following sections
+
 // finish grid
 class HomeProjects extends Component {
     state = {
