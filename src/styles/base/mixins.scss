@@ -13,3 +13,7 @@
 @mixin textshadow {
     text-shadow: 6px 6px 14px rgba(54, 54, 54, 0.4);
 }
+
+@mixin curvedborder {
+    border-radius: 20px;
+}

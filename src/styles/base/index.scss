@@ -28,6 +28,17 @@ h1, h2, h3, h4, h5, p {
     color: $bh-black;
     font-size: $font-lg;
     padding-bottom: 20px;
+    margin-bottom: 20px;
+    &:after {
+        content: "~";
+        color: $bh-blue-light;
+        display: block;
+        // width: 80px;
+        font-size: 90px;
+        height: 2px;
+        margin: 5px auto 0 auto;
+        // background: $bh-blue-light;
+    }
 }
 
 .subtitle {

@@ -11,6 +11,7 @@
     grid-gap: 20px;
     padding: 80px 0;
     img {
+        @include curvedborder;
         width: 100%;
     }
 }

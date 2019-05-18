@@ -6,7 +6,7 @@ const HomeAbout = () => (
     <section className="homeAbout">
         <div className="container">
             <div className="homeAbout__content">
-                <img src={Office} alt="about image" className="btn-shadow--dark" />
+                <img src={Office} alt="about image" />
                 <div className="homeAbout__content__text">
                     <h2 className="subtitle">About Us</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint iusto dolor dolores molestiae porro delectus voluptatum aliquam, a consequatur dolore, similique culpa possimus rem saepe, deleniti tempora. Asperiores, recusandae magni?</p>

@@ -12,12 +12,14 @@
 
 .homeSerivces__panel__img {
     // height: 200px;
+    @include curvedborder;
     width: 100%;
     object-fit: contain;
 }
 
 .homeServices__panel {
     @include boxshadow;
+    @include curvedborder;
 }
 
 .homeServices__panel__text {
