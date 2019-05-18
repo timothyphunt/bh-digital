@@ -12,8 +12,8 @@ const projects = [
     { title: 'Bridge Investor', tags: ['Digital', 'Marketing'], img: Bridge },
     { title: 'Auto Team', tags: ['Digital'], img: Car },
     { title: 'Island Escape', tags: ['Digital', 'Marketing'], img: Island },
-    { title: 'NY Times', tags: ['Digital'], img: NY },
-    { title: 'Office NU', tags: ['Marketing'], img: Office },
+    { title: 'NY Times', tags: ['Digital', 'Logo'], img: NY },
+    { title: 'Office NU', tags: ['Marketing', 'Logo'], img: Office },
 ];
 
 // finish following sections

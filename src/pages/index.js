@@ -8,6 +8,7 @@ import HomeHero from '../components/Home/HomeHero';
 import HomeServices from '../components/Home/HomeServices';
 import HomeAbout from '../components/Home/HomeAbout';
 import HomeProjects from '../components/Home/HomeProjects';
+import HomeClients from '../components/Home/HomeClients';
 
 class Home extends Component {
     render() {
@@ -20,6 +21,7 @@ class Home extends Component {
             <HomeServices />
             <HomeAbout />
             <HomeProjects />
+            <HomeClients />
                 { edges.map(edge => <div key={edge.node.id}>
                     <Link to={edge.node.frontmatter.path}>{edge.node.frontmatter.title}</Link>
                     </div>
