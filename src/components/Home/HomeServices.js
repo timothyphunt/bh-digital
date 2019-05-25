@@ -21,7 +21,7 @@ class HomeServices extends Component {
                                 <p>
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, deleniti excepturi. Excepturi fuga, similique labore sed voluptate quisquam at voluptatum ullam mollitia deserunt aliquam perferendis atque, perspiciatis hic molestias suscipit.
                                 </p>
-                                <button className="btn btn--blue btn-shadow">Read more</button>
+                                <button className="btn btn--blue">Read more</button>
                             </div>
                         </div>
                         <div className="homeServices__panel">
@@ -31,7 +31,7 @@ class HomeServices extends Component {
                                 <p>
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, deleniti excepturi. Excepturi fuga, similique labore sed voluptate quisquam at voluptatum ullam mollitia deserunt aliquam perferendis atque, perspiciatis hic molestias suscipit.
                                 </p>
-                                <button className="btn btn--blue btn-shadow">Read more</button>
+                                <button className="btn btn--blue">Read more</button>
                             </div>
                         </div>
                         <div className="homeServices__panel">
@@ -41,7 +41,7 @@ class HomeServices extends Component {
                                 <p>
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, deleniti excepturi. Excepturi fuga, similique labore sed voluptate quisquam at voluptatum ullam mollitia deserunt aliquam perferendis atque, perspiciatis hic molestias suscipit.
                                 </p>
-                                <button className="btn btn--blue btn-shadow">Read more</button>
+                                <button className="btn btn--blue">Read more</button>
                             </div>
                         </div>
                     </div>
