@@ -6,8 +6,9 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100vh;
-    max-height: 500px;
+    // height: 100vh;
+    min-height: 500px;
+    // max-height: 500px;
     display: flex;
 }
 
@@ -23,7 +24,14 @@
     }
 }
 
+
 .homeHero__wavyDiv {
     position: absolute;
-    bottom: 25px;
+    // bottom: 25px;
+    width: 100%;
+    bottom: 0;
+}
+
+.homeHero__wavyDiv path {
+    fill: #fff;
 }
