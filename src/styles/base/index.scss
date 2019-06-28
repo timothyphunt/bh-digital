@@ -28,6 +28,9 @@ a {
     color: inherit;
     text-decoration: none;
     &:hover {
+        @include colorTransition;
+        color: $bh-blue;
+        cursor: pointer;
         text-decoration: none;
     }
 }

@@ -17,17 +17,19 @@
 }
 
 .navbar__links__link {
-    margin-right: 20px;
-    // text-transform: uppercase;
-    padding-bottom: 5px;
-    // font-weight: 600;
-    &:hover {
-        border-bottom: 2px solid $bh-blue-very-light;
-        cursor: pointer;
-    //     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-    //    -moz-animation: fadein 2s; /* Firefox < 16 */
-    //     -ms-animation: fadein 2s; /* Internet Explorer */
-    //      -o-animation: fadein 2s; /* Opera < 12.1 */
-    //         animation: fadein 2s;
-    }
+    margin-left: 20px;
+}
+
+.navbar__socialLinks {
+    text-align: right;
+    padding-bottom: 20px;
+        svg, i {
+            margin-left: 20px;
+            color: $bh-grey;
+            font-size: 1.4em;
+            &:hover {
+                color: $bh-blue;
+                cursor: pointer;
+            }
+        }
 }

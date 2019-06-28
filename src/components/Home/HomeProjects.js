@@ -8,12 +8,12 @@ import NY from '../../../static/assets/ny.jpg';
 import Office from '../../../static/assets/office.jpg';
 
 const projects = [
-    { title: 'Lake Group', tags: ['Digital'], img: LakeGroup },
-    { title: 'Bridge Investor', tags: ['Digital', 'Marketing'], img: Bridge },
-    { title: 'Auto Team', tags: ['Digital'], img: Car },
-    { title: 'Island Escape', tags: ['Digital', 'Marketing'], img: Island },
-    { title: 'NY Times', tags: ['Digital', 'Logo'], img: NY },
-    { title: 'Office NU', tags: ['Marketing', 'Logo'], img: Office },
+    { title: 'Lake Group', tags: ['Digital'], img: LakeGroup, services: 'Design • Development • PPC' },
+    { title: 'Bridge Investor', tags: ['Digital', 'Marketing'], img: Bridge, services: 'Design • SEO • PPC' },
+    { title: 'Auto Team', tags: ['Digital'], img: Car, services: 'Design • SEO • PPC' },
+    { title: 'Island Escape', tags: ['Digital', 'Marketing'], img: Island, services: 'Design • Logo • PPC' },
+    { title: 'NY Times', tags: ['Digital', 'Logo'], img: NY, services: 'SEO • Development • PPC' },
+    { title: 'Office NU', tags: ['Marketing', 'Logo'], img: Office, services: 'Analytics • Logo • PPC' },
 ];
 
 // finish following sections
@@ -48,10 +48,11 @@ class HomeProjects extends Component {
                 
                 <div className="homeProjects__grid">
                     {
-                        this.state.filteredProjects.map(({ title, img}) => (
+                        this.state.filteredProjects.map(({ title, img, services }) => (
                             <div className="homeProjects__grid__project">
                                 <img src={img} alt={title} />
                                 <h1 className="subtitle">{title}</h1>
+                                <p>{services}</p>
                             </div>
                         ))
                     }

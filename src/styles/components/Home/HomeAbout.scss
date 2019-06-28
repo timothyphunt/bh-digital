@@ -1,8 +1,8 @@
 .homeAbout {
     background: lightgrey;
-    // background: linear-gradient(to bottom right, $bh-blue-very-light, white);
-    // color: white;
 }
+
+
 
 .homeAbout__content {
     display: grid;
@@ -10,7 +10,7 @@
     grid-gap: 20px;
     padding: 80px 0;
     img {
-        @include curvedborder;
+        // @include curvedborder;
         width: 100%;
     }
 }
@@ -25,5 +25,12 @@
     }
     button {
         margin-top: 20px;
+    }
+}
+
+.homeAbout__wavyDiv {
+    background: lightgrey;
+    path {
+        fill: white;
     }
 }

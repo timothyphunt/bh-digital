@@ -1,6 +1,7 @@
 .homeServices {
-    padding: 80px 0;
+    padding: 80px 0 0 0;
     text-align: center;
+    position: relative;
 }
 
 .homeServices__panels {
@@ -27,5 +28,12 @@
     p {
         padding: 0 20px;
         margin-bottom: 20px;
+    }
+}
+
+.homeServices__wavyDiv {
+    background: white;
+    path {
+        fill: lightgrey;
     }
 }
