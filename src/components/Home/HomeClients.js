@@ -7,6 +7,7 @@ class HomeClients extends Component {
         return (
             <section className="homeClients">
                 <div className="container">
+                    <hr />
                     <h1 className="title">Client Say's</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quidem. Unde officia rerum modi quaerat vel libero sunt. Commodi, ut? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, ducimus.</p>
                     <div className="homeClients__grid">

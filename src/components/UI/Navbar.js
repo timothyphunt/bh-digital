@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { FaTwitter, FaFacebook, FaLinkedin, FaDribbble } from 'react-icons/fa';
-
+import Link from 'gatsby-link';
 
 import Logo from '../../../static/assets/logo.jpg';
 
@@ -10,11 +9,13 @@ class Navbar extends Component {
             <nav className="navbar__wrapper">
                 <div className="container">
                     <div className="navbar">
-                        <img src={Logo} alt="bluehorn logo" className="navbar__logo" />
+                        <Link to="/">
+                            <img src={Logo} alt="bluehorn logo" className="navbar__logo" />
+                        </Link>
                         <div className="navbar__links">
-                            <a href="#" className="navbar__links__link">Services</a>
-                            <a href="#" className="navbar__links__link">Projects</a>
-                            <a href="#" className="navbar__links__link">People</a>
+                            <Link to="/services" className="navbar__links__link">Services</Link>
+                            <Link to="/projects" className="navbar__links__link">Projects</Link>
+                            <Link to="/people" className="navbar__links__link">People</Link>
                         </div>
                     </div>
                 </div>

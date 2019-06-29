@@ -49,7 +49,7 @@ class HomeProjects extends Component {
                 <div className="homeProjects__grid">
                     {
                         this.state.filteredProjects.map(({ title, img, services }) => (
-                            <div className="homeProjects__grid__project">
+                            <div className="homeProjects__grid__project" key={title}>
                                 <img src={img} alt={title} />
                                 <h1 className="subtitle">{title}</h1>
                                 <p>{services}</p>

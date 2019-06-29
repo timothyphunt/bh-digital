@@ -19,7 +19,7 @@ class HomeServices extends Component {
                             <div className="homeServices__panel__text">
                                 <h2 className="subtitle">Marketing</h2>
                                 <p>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, deleniti excepturi. Excepturi fuga, similique labore sed voluptate quisquam at voluptatum ullam mollitia deserunt aliquam perferendis atque, perspiciatis hic molestias suscipit.
+                                    Lorem ipsum dolor, deleniti excepturi. Excepturi fuga, at voluptatum ullam mollitia deserunt aliquam perferendis atque, perspiciatis hic molestias suscipit. Lorem, ipsum.
                                 </p>
                                 <button className="btn btn--blue">Read more</button>
                             </div>
@@ -29,7 +29,7 @@ class HomeServices extends Component {
                             <div className="homeServices__panel__text">
                                 <h2 className="subtitle">Digital</h2>
                                 <p>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, deleniti excepturi. Excepturi fuga, similique labore sed voluptate quisquam at voluptatum ullam mollitia deserunt aliquam perferendis atque, perspiciatis hic molestias suscipit.
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, voluptatum ullam mollitia deserunt aliquam perferendis atque, perspiciatis hic molestias suscipit.
                                 </p>
                                 <button className="btn btn--blue">Read more</button>
                             </div>
@@ -39,7 +39,7 @@ class HomeServices extends Component {
                             <div className="homeServices__panel__text">
                                 <h2 className="subtitle">Brand</h2>
                                 <p>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, deleniti excepturi. Excepturi fuga, similique labore sed voluptate quisquam at voluptatum ullam mollitia deserunt aliquam perferendis atque, perspiciatis hic molestias suscipit.
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, perspiciatis. Lorem ipsum dolor sit amet. suscipit.
                                 </p>
                                 <button className="btn btn--blue">Read more</button>
                             </div>

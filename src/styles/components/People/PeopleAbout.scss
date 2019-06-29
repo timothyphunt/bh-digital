@@ -1,0 +1,47 @@
+.peopleAbout {
+    padding: 80px 0;
+    position: relative;
+    text-align: center;
+
+    @media only screen and (min-width: 992px) {
+        padding: 80px 0 180px 0;
+    }
+}
+
+.peopleAbout__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 80px 0;
+
+    @media only screen and (min-width: 992px) {
+        grid-gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.peopleAbout__grid__person {
+    @include boxshadow;
+    @include curvedborder;
+    margin-bottom: 20px;
+
+    img {
+        @include curvedborder;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .peopleAbout__grid__person__quote {
+        padding: 20px 20px 40px 20px;
+    }
+}
+
+.peopleAbout__wavyDiv {
+    background: white;
+    bottom: -1px;
+    left: 0;
+    position: absolute;
+
+    path {
+        fill: lightgrey;
+    }
+}
