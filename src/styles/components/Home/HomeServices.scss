@@ -1,7 +1,11 @@
 .homeServices {
-    padding: 80px 0 180px 0;
+    padding: 80px 0;
     text-align: center;
     position: relative;
+
+    @media only screen and (min-width: 992px) {
+        padding: 80px 0 180px 0;
+    }
 }
 
 .homeServices__panels {
@@ -41,7 +45,7 @@
     background: white;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -1px;
 
     path {
         fill: lightgrey;

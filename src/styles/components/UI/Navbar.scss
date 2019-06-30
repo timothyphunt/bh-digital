@@ -13,7 +13,11 @@
 }
 
 .navbar__links {
-    display: inline;
+    display: none;
+
+    @media only screen and (min-width: 992px) {
+        display: inline;
+    }
 }
 
 .navbar__links__link {
@@ -23,13 +27,29 @@
 .navbar__socialLinks {
     text-align: right;
     padding-bottom: 20px;
-        svg, i {
-            margin-left: 20px;
-            color: $bh-grey;
-            font-size: 1.4em;
-            &:hover {
-                color: $bh-blue;
-                cursor: pointer;
-            }
+
+    svg, i {
+        margin-left: 20px;
+        color: $bh-grey;
+        font-size: 1.4em;
+        &:hover {
+            color: $bh-blue;
+            cursor: pointer;
         }
+    }
+}
+
+.navbar__hamburger {
+    @media only screen and (min-width: 992px) {
+        display: none;
+    }
+}
+
+.navbar__slideout {
+    padding-top: 20px;
+}
+
+.navbar__slideout__link {
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
 }
