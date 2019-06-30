@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 import LakeGroup from '../../../static/assets/lake3.jpg';
 
@@ -11,33 +12,39 @@ class HomeClients extends Component {
                     <h1 className="title">Client Say's</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quidem. Unde officia rerum modi quaerat vel libero sunt. Commodi, ut? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, ducimus.</p>
                     <div className="homeClients__grid">
-                        <div className="homeClients__grid__client">
-                            <div className="homeClients__grid__client__info">
-                                <img src={LakeGroup} alt="first client" />
-                                <h3 className="subtitle">Wayne Bruce</h3>
+                        <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+                            <div className="homeClients__grid__client">
+                                <div className="homeClients__grid__client__info">
+                                    <img src={LakeGroup} alt="first client" />
+                                    <h3 className="subtitle">Wayne Bruce</h3>
+                                </div>
+                                <p className="homeCLients__grid__client__quote">
+                                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A quod nihil nostrum, eaque quae nobis."
+                                </p>
                             </div>
-                            <p className="homeCLients__grid__client__quote">
-                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A quod nihil nostrum, eaque quae nobis."
-                            </p>
-                        </div>
-                        <div className="homeClients__grid__client">
-                            <div className="homeClients__grid__client__info">
-                                <img src={LakeGroup} alt="second client" />
-                                <h3 className="subtitle">Parker Peter</h3>
+                        </ScrollAnimation>
+                        <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+                            <div className="homeClients__grid__client">
+                                <div className="homeClients__grid__client__info">
+                                    <img src={LakeGroup} alt="second client" />
+                                    <h3 className="subtitle">Parker Peter</h3>
+                                </div>
+                                <p className="homeCLients__grid__client__quote">
+                                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A quod nihil nostrum, eaque quae nobis."
+                                </p>
                             </div>
-                            <p className="homeCLients__grid__client__quote">
-                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A quod nihil nostrum, eaque quae nobis."
-                            </p>
-                        </div>
-                        <div className="homeClients__grid__client">
-                            <div className="homeClients__grid__client__info">
-                                <img src={LakeGroup} alt="third client" />
-                                <h3 className="subtitle">Cassidy Kletus</h3>
+                        </ScrollAnimation>
+                        <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+                            <div className="homeClients__grid__client">
+                                <div className="homeClients__grid__client__info">
+                                    <img src={LakeGroup} alt="third client" />
+                                    <h3 className="subtitle">Cassidy Kletus</h3>
+                                </div>
+                                <p className="homeCLients__grid__client__quote">
+                                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A quod nihil nostrum, eaque quae nobis."
+                                </p>
                             </div>
-                            <p className="homeCLients__grid__client__quote">
-                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A quod nihil nostrum, eaque quae nobis."
-                            </p>
-                        </div>
+                        </ScrollAnimation>
                     </div>
                 </div>
                 <svg className="homeClients__wavyDiv" id="" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1416.99 174.01">

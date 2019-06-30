@@ -1,0 +1,51 @@
+.servicesAbout {
+    text-align: center;
+    padding: 80px 0;
+    position: relative;
+
+    hr {
+        margin: 40px 0;
+    }
+
+    @media only screen and (min-width: 992px) {
+        padding-bottom: 180px;
+    }
+}
+
+.servicesAbout__service {
+    margin-bottom: 80px;
+
+    p {
+        margin-bottom: 20px;
+    }
+}
+
+.servicesAbout__service__caseStudies {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    margin-top: 40px;
+
+    img {
+        @include boxshadow;
+        margin-bottom: 20px;
+        max-height: 150px;
+        object-fit: cover;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    @media only screen and (min-width: 992px) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.servicesAbout__wavyDiv {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+
+    path {
+        fill: lightgrey;
+    }
+}

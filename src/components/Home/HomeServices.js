@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 import Green from '../../../static/assets/green.jpg';
 import Multicolour from '../../../static/assets/multicolour.jpg';
@@ -15,6 +16,7 @@ class HomeServices extends Component {
                     </p>
                     <div className="homeServices__panels">
                         <div className="homeServices__panel">
+                            <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                             <img src={Multicolour} alt="services image" className="homeSerivces__panel__img"/>
                             <div className="homeServices__panel__text">
                                 <h2 className="subtitle">Marketing</h2>
@@ -23,18 +25,22 @@ class HomeServices extends Component {
                                 </p>
                                 <button className="btn btn--blue">Read more</button>
                             </div>
+                            </ScrollAnimation>
                         </div>
                         <div className="homeServices__panel">
-                            <img src={Green} alt="services image" className="homeSerivces__panel__img"/>
-                            <div className="homeServices__panel__text">
-                                <h2 className="subtitle">Digital</h2>
-                                <p>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, voluptatum ullam mollitia deserunt aliquam perferendis atque, perspiciatis hic molestias suscipit.
-                                </p>
-                                <button className="btn btn--blue">Read more</button>
-                            </div>
+                            <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+                                <img src={Green} alt="services image" className="homeSerivces__panel__img"/>
+                                <div className="homeServices__panel__text">
+                                    <h2 className="subtitle">Digital</h2>
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, voluptatum ullam mollitia deserunt aliquam perferendis atque, perspiciatis hic molestias suscipit.
+                                    </p>
+                                    <button className="btn btn--blue">Read more</button>
+                                </div>
+                            </ScrollAnimation>
                         </div>
                         <div className="homeServices__panel">
+                            <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                             <img src={Red} alt="services image" className="homeSerivces__panel__img"/>
                             <div className="homeServices__panel__text">
                                 <h2 className="subtitle">Brand</h2>
@@ -43,6 +49,7 @@ class HomeServices extends Component {
                                 </p>
                                 <button className="btn btn--blue">Read more</button>
                             </div>
+                            </ScrollAnimation>
                         </div>
                     </div>
                 </div>

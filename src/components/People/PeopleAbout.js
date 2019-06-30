@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaLinkedin, FaDribbble, FaTwitter } from 'react-icons/fa';
 
 import Employee from '../../../static/assets/employee1.jpg';
 
@@ -14,6 +15,11 @@ const PeopleAbout = () => (
                     <p className="peopleAbout__grid__person__quote">
                         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A quod nihil nostrum, eaque quae nobis."
                     </p>
+                    <div className="peopleAbout__grid__person__social">
+                        <FaLinkedin />
+                        <FaDribbble />
+                        <FaTwitter />
+                    </div>
                 </div>
                 <div className="peopleAbout__grid__person">
                     <img src={Employee} alt="employee" />
@@ -21,6 +27,10 @@ const PeopleAbout = () => (
                     <p className="peopleAbout__grid__person__quote">
                         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A quod nihil nostrum, eaque quae nobis."
                     </p>
+                    <div className="peopleAbout__grid__person__social">
+                        <FaLinkedin />
+                        <FaDribbble />
+                    </div>
                 </div>
                 <div className="peopleAbout__grid__person">
                     <img src={Employee} alt="employee" />
@@ -28,6 +38,11 @@ const PeopleAbout = () => (
                     <p className="peopleAbout__grid__person__quote">
                         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A quod nihil nostrum, eaque quae nobis."
                     </p>
+                    <div className="peopleAbout__grid__person__social">
+                        <FaLinkedin />
+                        <FaDribbble />
+                        <FaTwitter />
+                    </div>
                 </div>
             </div>
         </div>

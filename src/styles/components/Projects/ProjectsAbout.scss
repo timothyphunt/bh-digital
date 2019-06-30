@@ -1,0 +1,134 @@
+.projectsAbout {
+    text-align: center;
+    margin-top: 80px;
+    position: relative;
+    padding-bottom: 180px;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+.projectsAbout__header {
+    margin-bottom: 40px;
+
+    @media only screen and (min-width: 992px) {
+        margin-bottom: 0px;
+    }
+}
+
+.projectsAbout__project__hero {
+    text-align: center;
+    background: rgb(151,168,214);
+    background: linear-gradient(to bottom right, rgba(55, 55, 55, 0.4), rgba(225, 225, 225, 0.4)), url('../../static/assets/lake.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    min-height: 250px;
+    max-height: 400px;
+    margin-bottom: 80px;
+    
+    h2 {
+        padding: 110px 0;
+        color: white;
+
+        @media only screen and (min-width: 992px) {
+            padding: 180px 0;
+        }
+    }
+
+    @media only screen and (min-width: 992px) {
+        min-height: 400px
+    }
+}
+
+#lakegroup--hero {
+    background: linear-gradient(to bottom right, rgba(55, 55, 55, 0.4), rgba(225, 225, 225, 0.4)), url('../../static/assets/lake.jpg') no-repeat center center fixed !important;
+}
+
+#bridgeinvestor--hero {
+    background: linear-gradient(to bottom right, rgba(55, 55, 55, 0.4), rgba(225, 225, 225, 0.4)), url('../../static/assets/bridge.jpg') no-repeat center center fixed !important;
+}
+
+#autoteam--hero {
+    background: linear-gradient(to bottom right, rgba(55, 55, 55, 0.4), rgba(225, 225, 225, 0.4)), url('../../static/assets/car.jpg') no-repeat center center fixed;
+}
+
+#islandescape--hero {
+    background: linear-gradient(to bottom right, rgba(55, 55, 55, 0.4), rgba(225, 225, 225, 0.4)), url('../../static/assets/island.jpg') no-repeat center center fixed;
+}
+
+.projectsAbout__project__wavyDiv--top {
+    // display: none;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    transform: rotate(180deg);
+
+    path {
+        fill: white;
+    }
+}
+
+.projectsAbout__project__wavyDiv--bottom {
+    background: transparent;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+
+    path {
+        fill: white;
+    }
+}
+
+.projectsAbout__project__caseStudy {
+    img {
+        margin-top: 40px;
+    }
+}
+
+.projectsAbout__project__caseStudy__metrics {
+    padding: 80px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+
+    @media only screen and (min-width: 992px) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 40px;
+    }
+}
+
+.projectsAbout__project__caseStudy__metrics__metric {
+    background: lightgrey;
+    padding: 40px 20px;    
+
+    span {
+        display: block;
+        margin: 20px 0;
+
+        &:first-child {
+            color: $bh-blue;
+            font-size: 2em;
+            font-weight: bolder;
+        }
+    }
+}
+
+.projectsAbout__wavyDiv {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    path {
+        fill: lightgrey;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    
+}
+
+

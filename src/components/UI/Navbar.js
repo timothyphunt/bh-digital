@@ -41,10 +41,10 @@ class Navbar extends Component {
                                 <Link to="/services">Services</Link>
                             </div>
                             <div className="navbar__slideout__link">
-                                <Link to="/services">Projects</Link>
+                                <Link to="/projects">Projects</Link>
                             </div>
                             <div className="navbar__slideout__link">
-                                <Link to="/services">People</Link>
+                                <Link to="/people">People</Link>
                             </div>
                         </div>
                     )
