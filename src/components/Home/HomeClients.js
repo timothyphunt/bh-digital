@@ -16,7 +16,10 @@ class HomeClients extends Component {
                             <div className="homeClients__grid__client">
                                 <div className="homeClients__grid__client__info">
                                     <img src={LakeGroup} alt="first client" />
-                                    <h3 className="subtitle">Wayne Bruce</h3>
+                                    <div className="homeClients__grid__client__info__text">
+                                        <h3 className="subtitle">Wayne Bruce</h3>
+                                        <p>CEO, Wayne Enterprise</p>
+                                    </div>
                                 </div>
                                 <p className="homeCLients__grid__client__quote">
                                     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A quod nihil nostrum, eaque quae nobis."
@@ -27,7 +30,10 @@ class HomeClients extends Component {
                             <div className="homeClients__grid__client">
                                 <div className="homeClients__grid__client__info">
                                     <img src={LakeGroup} alt="second client" />
-                                    <h3 className="subtitle">Parker Peter</h3>
+                                    <div className="homeClients__grid__client__info__text">
+                                        <h3 className="subtitle">Peter Parker</h3>
+                                        <p>CTO, Parker Industries</p>
+                                    </div>
                                 </div>
                                 <p className="homeCLients__grid__client__quote">
                                     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A quod nihil nostrum, eaque quae nobis."
@@ -38,7 +44,10 @@ class HomeClients extends Component {
                             <div className="homeClients__grid__client">
                                 <div className="homeClients__grid__client__info">
                                     <img src={LakeGroup} alt="third client" />
-                                    <h3 className="subtitle">Cassidy Kletus</h3>
+                                    <div className="homeClients__grid__client__info__text">
+                                        <h3 className="subtitle">Cassidy Kletus</h3>
+                                        <p>CEO, Carnage Aerospace</p>
+                                    </div>
                                 </div>
                                 <p className="homeCLients__grid__client__quote">
                                     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A quod nihil nostrum, eaque quae nobis."

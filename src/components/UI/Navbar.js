@@ -28,6 +28,9 @@ class Navbar extends Component {
                             <Link to="/services" className="navbar__links__link">Services</Link>
                             <Link to="/projects" className="navbar__links__link">Projects</Link>
                             <Link to="/people" className="navbar__links__link">People</Link>
+                            <Link to="/blog" className="navbar__links__link">Blog</Link>
+                            <Link to="/about" className="navbar__links__link">About</Link>
+                            <Link to="/contact" className="navbar__links__link">Contact</Link>
                         </div>
                         <div className="navbar__hamburger">
                             <Hamburger toggleSlideout={this.toggleSlideout} slideoutVisible={this.state.slideoutVisible} />
@@ -46,10 +49,18 @@ class Navbar extends Component {
                             <div className="navbar__slideout__link">
                                 <Link to="/people">People</Link>
                             </div>
+                            <div className="navbar__slideout__link">
+                                <Link to="/blog">Blog</Link>
+                            </div>
+                            <div className="navbar__slideout__link">
+                                <Link to="/about">About</Link>
+                            </div>
+                            <div className="navbar__slideout__link">
+                                <Link to="/contact">Contact</Link>
+                            </div>
                         </div>
                     )
                 }
-                
             </nav>
         )
     }

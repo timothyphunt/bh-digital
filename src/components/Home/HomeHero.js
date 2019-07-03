@@ -7,8 +7,8 @@ class HomeHero extends Component {
             <div className="homeHero">
                 <div className="homeHero__text">
                     <ScrollAnimation animateIn="fadeIn">
-                        <h1 className="title">We Provoke Change</h1>
-                        <h2 className="subtitle">& Create Success</h2>
+                        <h1 className="title">Creating digital success</h1>
+                        <h2 className="subtitle">Design and web agency based in Liverpool.</h2>
                         <button className="btn btn--blue">Learn more</button> 
                     </ScrollAnimation>
                 </div>

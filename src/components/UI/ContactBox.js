@@ -21,6 +21,7 @@ class ContactBox extends Component {
                                 <option value="Social">Social</option>
                             </select>
                         </div>
+                        <textarea />
                         <div className="contactBox__grid__col3">
                             <input className="bh-input" placeholder="Contact Number" />
                             <button className="btn btn--blue">Send</button>

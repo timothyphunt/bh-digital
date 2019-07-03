@@ -32,6 +32,7 @@
     @include boxshadow;
     @include curvedborder;
     padding: 20px;
+    margin-top: 40px;
 
     img {
         width: 100%;
@@ -59,9 +60,15 @@
             margin-right: 20px;
             margin-bottom: 0;
         }
+
+        .homeClients__grid__client__info__text {
+            text-align: left;
+        }
     }
     
 }
+
+
 
 .homeCLients__grid__client__quote {
     margin-top: 20px;

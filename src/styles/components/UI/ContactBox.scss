@@ -1,5 +1,5 @@
 .contactBox {
-    padding-top: 80px;
+    padding-top: 20px;
     background: lightgrey;
     text-align: center;
     position: relative;
@@ -16,8 +16,17 @@
         }
     }
 
+    textarea {
+        @include curvedborder;
+        border: none;
+        resize: none;
+        padding: 10px;
+        width: 90%;
+        margin: 10px auto;
+    }
+
     @media only screen and (min-width: 992px) {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
