@@ -16,9 +16,6 @@ const projects = [
     { title: 'Office NU', tags: ['Marketing', 'Logo'], img: Office, services: 'Analytics • Logo • PPC' },
 ];
 
-// finish following sections
-// finish grid
-
 class HomeProjects extends Component {
     state = {
         filteredProjects: []
