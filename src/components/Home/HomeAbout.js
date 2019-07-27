@@ -2,6 +2,7 @@ import React from 'react';
 
 import Office from '../../../static/assets/office.jpg';
 
+
 const HomeAbout = () => (
     <section className="homeAbout">
         <div className="container">
