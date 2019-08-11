@@ -12,6 +12,7 @@ const PeopleAbout = () => (
                 <div className="peopleAbout__grid__person">
                     <img src={Employee} alt="employee" />
                     <h3 className="subtitle">Wayne Bruce</h3>
+                    <p>Creative Director</p>
                     <p className="peopleAbout__grid__person__quote">
                         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A quod nihil nostrum, eaque quae nobis."
                     </p>
@@ -24,6 +25,7 @@ const PeopleAbout = () => (
                 <div className="peopleAbout__grid__person">
                     <img src={Employee} alt="employee" />
                     <h3 className="subtitle">Wayne Bruce</h3>
+                    <p>Head Developer</p>
                     <p className="peopleAbout__grid__person__quote">
                         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A quod nihil nostrum, eaque quae nobis."
                     </p>
@@ -35,6 +37,7 @@ const PeopleAbout = () => (
                 <div className="peopleAbout__grid__person">
                     <img src={Employee} alt="employee" />
                     <h3 className="subtitle">Wayne Bruce</h3>
+                    <p>Technical Director</p>
                     <p className="peopleAbout__grid__person__quote">
                         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A quod nihil nostrum, eaque quae nobis."
                     </p>

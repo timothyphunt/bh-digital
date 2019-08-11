@@ -37,6 +37,7 @@ const Footer = () => (
                     </ul>
                 </div>
                 <div className="footer__grid__col4">
+                    <h3 className="subtitle">Address</h3>
                     <ul>
                         <li>Bluehorn Digital</li>
                         <li>41 Victoria Road</li>

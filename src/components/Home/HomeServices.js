@@ -10,7 +10,7 @@ class HomeServices extends Component {
         return (
             <section className="homeServices">
                 <div className="container">
-                    <h1 className="title">Works We Do</h1>
+                    <h1 className="title">Our Services</h1>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, amet itaque! Ex aperiam expedita sed obcaecati earum quod dolor nesciunt? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni maxime, iure sed ut ipsam in commodi explicabo dolore fugit nesciunt!
                     </p>
@@ -31,7 +31,7 @@ class HomeServices extends Component {
                             <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                                 <img src={Green} alt="services image" className="homeSerivces__panel__img"/>
                                 <div className="homeServices__panel__text">
-                                    <h2 className="subtitle">Digital</h2>
+                                    <h2 className="subtitle">Design</h2>
                                     <p>
                                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, voluptatum ullam mollitia deserunt aliquam perferendis atque, perspiciatis hic molestias suscipit.
                                     </p>
@@ -43,7 +43,7 @@ class HomeServices extends Component {
                             <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                             <img src={Red} alt="services image" className="homeSerivces__panel__img"/>
                             <div className="homeServices__panel__text">
-                                <h2 className="subtitle">Brand</h2>
+                                <h2 className="subtitle">Branding</h2>
                                 <p>
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, perspiciatis. Lorem ipsum dolor sit amet. suscipit.
                                 </p>

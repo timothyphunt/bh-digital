@@ -9,6 +9,7 @@ import HomeServices from '../components/Home/HomeServices';
 import HomeAbout from '../components/Home/HomeAbout';
 import HomeProjects from '../components/Home/HomeProjects';
 import HomeClients from '../components/Home/HomeClients';
+import HomeBlog from '../components/Home/HomeBlog';
 import ContactBox from '../components/UI/ContactBox';
 import Footer from '../components/UI/Footer';
 
@@ -24,6 +25,7 @@ class Home extends Component {
             <HomeAbout />
             <HomeProjects />
             <HomeClients />
+            <HomeBlog blogs={edges.slice(0, 3)} />
             <ContactBox />
             <Footer />
                 { edges.map(edge => <div key={edge.node.id}>

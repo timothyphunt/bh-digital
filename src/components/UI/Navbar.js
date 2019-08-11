@@ -21,7 +21,7 @@ class Navbar extends Component {
             <nav className="navbar__wrapper">
                 <div className="container">
                     <div className="navbar">
-                        <Link to="/">
+                        <Link to="/" className="navbar__logo__wrapper">
                             <img src={Logo} alt="bluehorn logo" className="navbar__logo" />
                         </Link>
                         <div className="navbar__links">

@@ -11,9 +11,9 @@ const projects = [
     { title: 'Lake Group', tags: ['Digital'], img: LakeGroup, services: 'Design • Development • PPC' },
     { title: 'Bridge Investor', tags: ['Digital', 'Marketing'], img: Bridge, services: 'Design • SEO • PPC' },
     { title: 'Auto Team', tags: ['Digital'], img: Car, services: 'Design • SEO • PPC' },
-    { title: 'Island Escape', tags: ['Digital', 'Marketing'], img: Island, services: 'Design • Logo • PPC' },
+    { title: 'Island Escape', tags: ['Digital', 'Marketing', 'Web'], img: Island, services: 'Design • Logo • PPC' },
     { title: 'NY Times', tags: ['Digital', 'Logo'], img: NY, services: 'SEO • Development • PPC' },
-    { title: 'Office NU', tags: ['Marketing', 'Logo'], img: Office, services: 'Analytics • Logo • PPC' },
+    { title: 'Office NU', tags: ['Marketing', 'Logo', 'Web'], img: Office, services: 'Analytics • Logo • PPC' },
 ];
 
 
@@ -41,7 +41,8 @@ class HomeProjects extends Component {
                 <div className="homeProjects__buttons">
                     <button className="btn btn--blue" onClick={() => this.filterProjects('Marketing')}>Marketing</button>
                     <button className="btn btn--blue" onClick={() => this.filterProjects('Digital')}>Digital</button>
-                    <button className="btn btn--blue" onClick={() => this.filterProjects('Logo')}>Logo</button>
+                    <button className="btn btn--blue" onClick={() => this.filterProjects('Logo')}>Logo Design</button>
+                    <button className="btn btn--blue" onClick={() => this.filterProjects('Web')}>Web</button>
                 </div>
                 
                 <div className="homeProjects__grid">

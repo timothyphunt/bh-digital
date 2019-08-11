@@ -44,6 +44,7 @@ a {
     font-size: $font-lg;
     padding-bottom: 20px;
     margin-bottom: 20px;
+    line-height: 50px;
     &:after {
         content: "~";
         color: $bh-blue-light;

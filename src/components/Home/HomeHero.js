@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
+import TextLoop from "react-text-loop";
 
 class HomeHero extends Component {
     render() {
@@ -7,7 +8,15 @@ class HomeHero extends Component {
             <div className="homeHero">
                 <div className="homeHero__text">
                     <ScrollAnimation animateIn="fadeIn">
-                        <h1 className="title">Creating digital success</h1>
+                        <h1 className="title">Creating digital
+                            <TextLoop interval={5000}>
+                            <span>&nbsp;success</span>
+                            <span>&nbsp;innovation</span>
+                            <span>&nbsp;reach</span>
+                            <span>&nbsp;change</span>
+                            <span>&nbsp;brands</span>
+                            </TextLoop>
+                        </h1>
                         <h2 className="subtitle">Design and web agency based in Liverpool.</h2>
                         <button className="btn btn--blue">Learn more</button> 
                     </ScrollAnimation>

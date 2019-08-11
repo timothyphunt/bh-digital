@@ -8,6 +8,17 @@
     justify-content: space-between;
 }
 
+.navbar__logo__wrapper {
+    width: 100%;
+    text-align: center;
+
+    @media only screen and (min-width: 992px) {
+        width: inherit;
+        text-align: left;
+    }
+
+}
+
 .navbar__logo {
     max-width: 200px;
 }
@@ -40,6 +51,9 @@
 }
 
 .navbar__hamburger {
+    position: absolute;
+    right: 0;
+
     @media only screen and (min-width: 992px) {
         display: none;
     }
