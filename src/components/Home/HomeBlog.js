@@ -10,9 +10,9 @@ class HomeBlog extends Component {
                     <hr />
                     <h1 className="title">Latest News</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quidem. Unde officia rerum modi quaerat vel libero sunt. Commodi, ut? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, ducimus.</p>
-                    <div className="homeServices__panels">
+                    <div className="homeBlog__grid">
                         {this.props.blogs.map(edge => 
-                            <div className="homeServices__panel" key={edge.node.id}>
+                            <div className="homeBlog__grid__blog" key={edge.node.id}>
                                 <Link to={edge.node.frontmatter.path}>
                                     <img src={edge.node.frontmatter.thumbnail} alt="services image" className="homeSerivces__panel__img"/>
                                     <div className="homeServices__panel__text">
@@ -20,7 +20,9 @@ class HomeBlog extends Component {
                                         <p>
                                             Lorem ipsum dolor, deleniti excepturi. Excepturi fuga, at voluptatum ullam mollitia deserunt aliquam perferendis atque, perspiciatis hic molestias suscipit. Lorem, ipsum.
                                         </p>
-                                        <button className="btn btn--blue">Read more</button>
+                                        <div className="btn-container">
+                                            <button className="btn btn--blue">Read more</button>
+                                        </div>
                                     </div>
                                 </Link>
                             </div>

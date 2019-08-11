@@ -9,3 +9,6 @@ gatsby new gatsby-site https://github.com/erquhart/gatsby-netlify-cms-example
 
 ## Running in development
 `gatsby develop`
+
+## Adding blog entires
+

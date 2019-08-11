@@ -7,3 +7,44 @@
         padding-bottom: 40px;
     }
 }
+
+
+.homeBlog__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+
+    @media only screen and (min-width: 992px) {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0;
+
+        a {
+            &:hover {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+    }
+}
+
+.homeBlog__grid__blog {
+    @include boxshadow;
+    @include curvedborder;
+    margin-top: 40px;
+    display: flex;
+
+    img {
+        @include curvedborder;
+        width: 100%;
+        max-height: 350px;
+        object-fit: contain;
+    }
+    
+    p {
+        height: 100%;
+    }
+
+    @media only screen and (min-width: 992px) {
+        margin: 80px 0;
+    }
+}
