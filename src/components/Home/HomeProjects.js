@@ -19,7 +19,14 @@ const projects = [
 
 class HomeProjects extends Component {
     state = {
-        filteredProjects: []
+        filteredProjects: [],
+        buttons: [
+            'Marketing',
+            'Digital',
+            'Logo',
+            'Web'
+        ],
+        selectedButton: null
     }
 
     componentDidMount() {
@@ -29,25 +36,31 @@ class HomeProjects extends Component {
     filterProjects = tag => {
         const filteredProjects = projects.filter(project => project.tags.includes(tag));
         this.setState({
-            filteredProjects
+            filteredProjects,
+            selectedButton: tag
         })
     }
 
     render() {
+        const { buttons, filteredProjects, selectedButton } = this.state;
+
         return (
             <section className="homeProjects container">
                 <h1 className="title">Our Projects</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi iure sint sunt quis, repellendus officiis qui culpa. Architecto, numquam distinctio.</p>
                 <div className="homeProjects__buttons">
-                    <button className="btn btn--blue" onClick={() => this.filterProjects('Marketing')}>Marketing</button>
-                    <button className="btn btn--blue" onClick={() => this.filterProjects('Digital')}>Digital</button>
-                    <button className="btn btn--blue" onClick={() => this.filterProjects('Logo')}>Logo Design</button>
-                    <button className="btn btn--blue" onClick={() => this.filterProjects('Web')}>Web</button>
+                    { 
+                        buttons.map(tag => 
+                            <button
+                                className={`btn btn--blue ${selectedButton === tag && 'btn--active'}`}
+                                onClick={() => this.filterProjects(tag)}>
+                                    {tag}
+                            </button>
+                    )}
                 </div>
-                
                 <div className="homeProjects__grid">
                     {
-                        this.state.filteredProjects.map(({ title, img, services }) => (
+                        filteredProjects.map(({ title, img, services }) => (
                             <div className="homeProjects__grid__project" key={title}>
                                 <img src={img} alt={title} />
                                 <h1 className="subtitle">{title}</h1>

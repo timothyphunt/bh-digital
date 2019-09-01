@@ -41,8 +41,7 @@ const Footer = () => (
                     <ul>
                         <li>Bluehorn Digital</li>
                         <li>41 Victoria Road</li>
-                        <li>Crosby</li>
-                        <li>L23 7XY</li>
+                        <li>Crosby, L23 7XY</li>
                         <li>info@bluehorndigital.co.uk</li>
                         <li>0151 903 9328</li>
                     </ul>
