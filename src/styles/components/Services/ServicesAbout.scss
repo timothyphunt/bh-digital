@@ -1,23 +1,23 @@
 .servicesAbout {
     text-align: center;
-    padding: 80px 0;
+    padding: 80px 0 0 0;
     position: relative;
 
     hr {
         margin: 40px 0;
     }
-
-    @media only screen and (min-width: 992px) {
-        padding-bottom: 180px;
-    }
 }
 
 .servicesAbout__service {
-    margin-bottom: 80px;
+    padding-bottom: 80px;
 
     p {
-        margin-bottom: 20px;
+        padding-bottom: 20px;
     }
+}
+
+.servicesAbout__service--grey {
+    background: lightgrey;
 }
 
 .servicesAbout__service__caseStudies {
@@ -41,11 +41,18 @@
 }
 
 .servicesAbout__wavyDiv {
-    position: absolute;
-    bottom: -2px;
-    left: 0;
+    // position: absolute;
+    // bottom: -2px;
 
     path {
         fill: lightgrey;
+    }
+}
+
+.servicesAbout__wavyDiv--white {
+    background: lightgrey;
+
+    path {
+        fill: white;
     }
 }
