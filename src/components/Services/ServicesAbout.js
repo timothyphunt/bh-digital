@@ -8,6 +8,7 @@ import Island from '../../../static/assets/island.jpg';
 import Lake from '../../../static/assets/lake2.jpg';
 import Shanghai from '../../../static/assets/shanghai.jpg';
 
+
 const ServicesAbout = () => (
     <section className="servicesAbout">
         <div className="container">
