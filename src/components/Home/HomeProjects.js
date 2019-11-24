@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 
-import LockieGroup from '../../../static/assets/projects/lockie.jpg';
-import JW from '../../../static/assets/projects/jw.jpg';
-import Pillarbox from '../../../static/assets/projects/pillarbox.jpg';
-import HH from '../../../static/assets/projects/hh.png';
-import GB from '../../../static/assets/projects/gb.jpg';
-import Diageo from '../../../static/assets/projects/diageo.jpg';
+import LockieGroup from '../../../static/assets/lockie-tablet.jpg';
+import JWProd from '../../../static/assets/jwp-brochure-feature.jpg';
+import Diageo from '../../../static/assets/diageo-brochure-feature.jpg';
+import HamHarp from '../../../static/assets/hh-mobile.jpg';
+import MoneyPockets from '../../../static/assets/money-pockets-feature.jpg';
+import Pillarbox from '../../../static/assets/pillarbox-feature.jpg';
 
 const projects = [
-    { title: 'Lockie Group', tags: ['Digital'], img: LockieGroup, services: 'Design • SEO • PPC' },
-    { title: 'JW Security Products', tags: ['Digital', 'Marketing'], img: JW, services: 'Analytics • Logo • PPC' },
-    { title: 'Pillarbox Envelopes', tags: ['Digital'], img: Pillarbox, services: 'Analytics • Logo • PPC' },
-    { title: 'Hammond & Harper', tags: ['Digital', 'Marketing', 'Web'], img: HH, services: 'Design • SEO • PPC' },
-    { title: 'GB Fleet Limited', tags: ['Digital', 'Logo'], img: GB, services: 'Design  • Development • PPC' },
-    { title: 'Diageo', tags: ['Marketing', 'Logo', 'Web'], img: Diageo, services: 'Design • Logo' },
+    { title: 'Lockie Group', tags: ['Digital', 'Marketing', 'Web'], img: LockieGroup, services: 'Design • SEO • PPC' },
+    { title: 'JW Products', tags: ['Digital', 'Marketing', 'Web'], img: JWProd, services: 'Logo • SEO • Analytics' },
+    { title: 'Diageo', tags: ['Marketing', 'Design'], img: Diageo, services: 'Design • Marketing • Printing' },
+    { title: 'Hammond & Harper', tags: ['Digital', 'Marketing', 'Web'], img: HamHarp, services: 'Design • SEO • PPC' },
+    { title: 'Money Pockets', tags: ['Digital', 'Logo'], img: MoneyPockets, services: 'Logo • Design • Content' },
+    { title: 'Pillarbox', tags: ['Marketing', 'Logo', 'Web'], img: Pillarbox, services: 'Logo • Design • Analytics' },
 ];
 
 
@@ -47,7 +47,7 @@ class HomeProjects extends Component {
         return (
             <section className="homeProjects container">
                 <h1 className="title">Our Projects</h1>
-                <p>We have completed numerous products across a wide spectrum of product advertising. We work closely with clients to understand exactly what they need and deliver above their expectations. Our body of work speaks for itself, so we don’t have to.</p>
+                <p>We have completed numerous products across a wide spectrum of product advertising. We work closely with clients to understand exactly what they need and deliver above their expectations. Our body of work speaks for itself, so we don’t have to. </p>
                 <div className="homeProjects__buttons">
                     { 
                         buttons.map(tag => 
