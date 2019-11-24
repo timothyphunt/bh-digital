@@ -22,7 +22,7 @@ class HomeClients extends Component {
                                     </div>
                                 </div>
                                 <p className="homeCLients__grid__client__quote">
-                                “Bluehorn have been our marketing agency for almost 2 years now and they continue to deliver results for us! Highly recommend their work and services”
+                                “I’ve worked with Bluehorn on several projects over the years and the end results have always been on point. As well as being an expert in the field, they are astute at understanding a business, its market and its customers, in order to deliver ROI across the board.”
                                 </p>
                             </div>
                         </ScrollAnimation>
@@ -36,7 +36,7 @@ class HomeClients extends Component {
                                     </div>
                                 </div>
                                 <p className="homeCLients__grid__client__quote">
-                                “Bluehorn helped us to grow our digital presence and create more connectivity with our customers. They understand our company inside out and this has achieved fantastic results for us.”
+                                “Bluehorn has been responsible for the production and full optimisation of all the groups websites. Their depth of understanding of our markets, products and customers has been demonstrated by the ongoing improved performance of our websites, which has been verified by increased sales achieved.”
                                 </p>
                             </div>
                         </ScrollAnimation>
@@ -50,7 +50,7 @@ class HomeClients extends Component {
                                     </div>
                                 </div>
                                 <p className="homeCLients__grid__client__quote">
-                                    “Excellent work on our Metro Pubs brochure on behalf of Green King – exactly what we needed for our activation campaign!”
+                                    “Excellent working with BH on our Metro Pubs brochure on behalf of Green King – exactly what we needed for our activation campaign!”
                                 </p>
                             </div>
                         </ScrollAnimation>
