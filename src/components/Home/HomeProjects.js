@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 
-import LakeGroup from '../../../static/assets/lake3.jpg';
-import Bridge from '../../../static/assets/bridge.jpg';
-import Car from '../../../static/assets/car.jpg';
-import Island from '../../../static/assets/island.jpg';
-import NY from '../../../static/assets/ny.jpg';
-import Office from '../../../static/assets/office.jpg';
+import LockieGroup from '../../../static/assets/projects/lockie.jpg';
+import JW from '../../../static/assets/projects/jw.jpg';
+import Pillarbox from '../../../static/assets/projects/pillarbox.jpg';
+import HH from '../../../static/assets/projects/hh.png';
+import GB from '../../../static/assets/projects/gb.jpg';
+import Diageo from '../../../static/assets/projects/diageo.jpg';
 
 const projects = [
-    { title: 'Lake Group', tags: ['Digital'], img: LakeGroup, services: 'Design • Development • PPC' },
-    { title: 'Bridge Investor', tags: ['Digital', 'Marketing'], img: Bridge, services: 'Design • SEO • PPC' },
-    { title: 'Auto Team', tags: ['Digital'], img: Car, services: 'Design • SEO • PPC' },
-    { title: 'Island Escape', tags: ['Digital', 'Marketing', 'Web'], img: Island, services: 'Design • Logo • PPC' },
-    { title: 'NY Times', tags: ['Digital', 'Logo'], img: NY, services: 'SEO • Development • PPC' },
-    { title: 'Office NU', tags: ['Marketing', 'Logo', 'Web'], img: Office, services: 'Analytics • Logo • PPC' },
+    { title: 'Lockie Group', tags: ['Digital'], img: LockieGroup, services: 'Design • SEO • PPC' },
+    { title: 'JW Security Products', tags: ['Digital', 'Marketing'], img: JW, services: 'Analytics • Logo • PPC' },
+    { title: 'Pillarbox Envelopes', tags: ['Digital'], img: Pillarbox, services: 'Analytics • Logo • PPC' },
+    { title: 'Hammond & Harper', tags: ['Digital', 'Marketing', 'Web'], img: HH, services: 'Design • SEO • PPC' },
+    { title: 'GB Fleet Limited', tags: ['Digital', 'Logo'], img: GB, services: 'Design  • Development • PPC' },
+    { title: 'Diageo', tags: ['Marketing', 'Logo', 'Web'], img: Diageo, services: 'Design • Logo' },
 ];
 
 
@@ -47,7 +47,7 @@ class HomeProjects extends Component {
         return (
             <section className="homeProjects container">
                 <h1 className="title">Our Projects</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi iure sint sunt quis, repellendus officiis qui culpa. Architecto, numquam distinctio.</p>
+                <p>We have completed numerous products across a wide spectrum of product advertising. We work closely with clients to understand exactly what they need and deliver above their expectations. Our body of work speaks for itself, so we don’t have to.</p>
                 <div className="homeProjects__buttons">
                     { 
                         buttons.map(tag => 

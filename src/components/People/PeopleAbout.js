@@ -1,21 +1,23 @@
 import React from 'react';
 import { FaLinkedin, FaDribbble, FaTwitter } from 'react-icons/fa';
 
-import Employee from '../../../static/assets/employee1.jpg';
+import Tim from '../../../static/assets/people/tim.jpg';
+import David from '../../../static/assets/people/david.jpg';
+import Adam from '../../../static/assets/people/adam.jpg';
 
 const PeopleAbout = () => (
     <section className="peopleAbout">
         <div className="container">
             <h1 className="title">Our People</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quidem. Unde officia rerum modi quaerat vel libero sunt. Commodi, ut? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, ducimus.</p>
+            <p>Our team is made up of creative and technical experts alike, all working together to achieve the goals of our clients. Meet the people involved who make it all happen.</p>
             <div className="peopleAbout__grid">
                 <div className="peopleAbout__grid__person">
-                    <img src={Employee} alt="employee" />
-                    <h3 className="subtitle">Wayne Bruce</h3>
+                    <img src={Tim} alt="employee" />
+                    <h3 className="subtitle">Timothy Hunt, BA Hons</h3>
                     <p>Creative Director</p>
-                    <p className="peopleAbout__grid__person__quote">
+                    {/* <p className="peopleAbout__grid__person__quote">
                         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A quod nihil nostrum, eaque quae nobis."
-                    </p>
+                    </p> */}
                     <div className="peopleAbout__grid__person__social">
                         <FaLinkedin />
                         <FaDribbble />
@@ -23,24 +25,24 @@ const PeopleAbout = () => (
                     </div>
                 </div>
                 <div className="peopleAbout__grid__person">
-                    <img src={Employee} alt="employee" />
-                    <h3 className="subtitle">Wayne Bruce</h3>
-                    <p>Head Developer</p>
-                    <p className="peopleAbout__grid__person__quote">
+                    <img src={David} alt="employee" />
+                    <h3 className="subtitle">David Hamilton, PhD</h3>
+                    <p>Technical Director</p>
+                    {/* <p className="peopleAbout__grid__person__quote">
                         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A quod nihil nostrum, eaque quae nobis."
-                    </p>
+                    </p> */}
                     <div className="peopleAbout__grid__person__social">
                         <FaLinkedin />
                         <FaDribbble />
                     </div>
                 </div>
                 <div className="peopleAbout__grid__person">
-                    <img src={Employee} alt="employee" />
-                    <h3 className="subtitle">Wayne Bruce</h3>
-                    <p>Technical Director</p>
-                    <p className="peopleAbout__grid__person__quote">
+                    <img src={Adam} alt="employee" />
+                    <h3 className="subtitle">Adam Pugh, BA Hons</h3>
+                    <p>Frontend Developer</p>
+                    {/* <p className="peopleAbout__grid__person__quote">
                         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A quod nihil nostrum, eaque quae nobis."
-                    </p>
+                    </p> */}
                     <div className="peopleAbout__grid__person__social">
                         <FaLinkedin />
                         <FaDribbble />

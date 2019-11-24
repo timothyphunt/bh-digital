@@ -17,7 +17,7 @@ class HomeHero extends Component {
                             <span>&nbsp;brands</span>
                             </TextLoop>
                         </h1>
-                        <h2 className="subtitle">Design and web agency based in Liverpool</h2>
+                        <h2 className="subtitle">Digital marketing and design agency based in Liverpool</h2>
                         <button className="btn btn--blue">Learn more</button> 
                     </ScrollAnimation>
                 </div>

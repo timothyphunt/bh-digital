@@ -25,13 +25,13 @@ class Home extends Component {
             <HomeAbout />
             <HomeProjects />
             <HomeClients />
-            <HomeBlog blogs={edges.slice(0, 3)} />
+            {/* <HomeBlog blogs={edges.slice(0, 3)} /> */}
             <ContactBox />
             <Footer />
-                { edges.map(edge => <div key={edge.node.id}>
+                {/* { edges.map(edge => <div key={edge.node.id}>
                     <Link to={edge.node.frontmatter.path}>{edge.node.frontmatter.title}</Link>
                     </div>
-                )}
+                )} */}
             </Layout>
         )
     }

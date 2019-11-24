@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-import Green from '../../../static/assets/green.jpg';
-import Multicolour from '../../../static/assets/multicolour.jpg';
-import Red from '../../../static/assets/red.jpg';
+import Desk from '../../../static/assets/desk.jpg';
+import Design from '../../../static/assets/design.jpg';
+import Branding from '../../../static/assets/branding.jpg';
 
 class HomeServices extends Component {
     render() {
@@ -12,28 +12,20 @@ class HomeServices extends Component {
                 <div className="container">
                     <h1 className="title">Our Services</h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, amet itaque! Ex aperiam expedita sed obcaecati earum quod dolor nesciunt? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni maxime, iure sed ut ipsam in commodi explicabo dolore fugit nesciunt!
+                        We are an inclusive digital marketing agency, offering a multitude of online services, such as web design and development, digital campaign design, ongoing SEO maintenance, social media marketing, and PPC (Pay-per-click) management. We work closely with our clients to develop their brand, create new business leads and maximise their online earning potential.
+                    </p>
+                    <br />
+                    <p>
+                    We will fully analyse your online portfolio and develop specific and proven strategies for you to develop your brand and reach your online audience. We specialise in e-commerce websites and develop marketing campaigns to ensure our clients see consistent results and diversify their online revenue stream. 
                     </p>
                     <div className="homeServices__panels">
                         <div className="homeServices__panel">
                             <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-                            <img src={Multicolour} alt="services image" className="homeSerivces__panel__img"/>
-                            <div className="homeServices__panel__text">
-                                <h2 className="subtitle">Marketing</h2>
-                                <p>
-                                    Lorem ipsum dolor, deleniti excepturi. Excepturi fuga, at voluptatum ullam mollitia deserunt aliquam perferendis atque, perspiciatis hic molestias suscipit. Lorem, ipsum.
-                                </p>
-                                <button className="btn btn--blue">Read more</button>
-                            </div>
-                            </ScrollAnimation>
-                        </div>
-                        <div className="homeServices__panel">
-                            <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-                                <img src={Green} alt="services image" className="homeSerivces__panel__img"/>
+                                <img src={Desk} alt="services image" className="homeSerivces__panel__img"/>
                                 <div className="homeServices__panel__text">
-                                    <h2 className="subtitle">Design</h2>
+                                    <h2 className="subtitle">Marketing</h2>
                                     <p>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, voluptatum ullam mollitia deserunt aliquam perferendis atque, perspiciatis hic molestias suscipit.
+                                        Content marketing and e-commerce optimization can generate web traffic and create a direct line of communication with your customers. We only create high quality and engaging content marketing campaigns which focus on reaching potential customers in the most effective way possible.
                                     </p>
                                     <button className="btn btn--blue">Read more</button>
                                 </div>
@@ -41,14 +33,26 @@ class HomeServices extends Component {
                         </div>
                         <div className="homeServices__panel">
                             <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-                            <img src={Red} alt="services image" className="homeSerivces__panel__img"/>
-                            <div className="homeServices__panel__text">
-                                <h2 className="subtitle">Branding</h2>
-                                <p>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, perspiciatis. Lorem ipsum dolor sit amet. suscipit.
-                                </p>
-                                <button className="btn btn--blue">Read more</button>
-                            </div>
+                                <img src={Design} alt="services image" className="homeSerivces__panel__img"/>
+                                <div className="homeServices__panel__text">
+                                    <h2 className="subtitle">Design</h2>
+                                    <p>
+                                        We have created websites, digital campaigns and advertising material for all company sizes, including start-ups, SMEs and global corporations. We specialise in the development of bespoke WordPress powered websites and combine our knowledge of UX design with cutting-edge web development technology.
+                                    </p>
+                                    <button className="btn btn--blue">Read more</button>
+                                </div>
+                            </ScrollAnimation>
+                        </div>
+                        <div className="homeServices__panel">
+                            <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+                                <img src={Branding} alt="services image" className="homeSerivces__panel__img"/>
+                                <div className="homeServices__panel__text">
+                                    <h2 className="subtitle">Branding</h2>
+                                    <p>
+                                        We provide an in-depth analysis on the specific requirements of your business in order to develop the right approach to promote a refined company and product image. Our dedicated strategists and designers come together to create and deliver a richer, more polished appearance to your communication channels.
+                                    </p>
+                                    <button className="btn btn--blue">Read more</button>
+                                </div>
                             </ScrollAnimation>
                         </div>
                     </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'gatsby-link';
 import { FaTwitter, FaFacebook, FaLinkedin, FaDribbble } from 'react-icons/fa';
 
 import Logo2 from '../../../static/assets/logo2.jpg';
@@ -19,21 +20,19 @@ const Footer = () => (
                 <div className="footer__grid__col2">
                     <h3 className="subtitle">Services</h3>
                     <ul>
-                        <li><a href="">SEO</a></li>
-                        <li><a href="">PPC</a></li>
-                        <li><a href="">Design</a></li>
-                        <li><a href="">Content</a></li>
-                        <li><a href="">Social</a></li>
+                        <li><Link to="/services#seo" className="navbar__links__link">SEO</Link></li>
+                        <li><Link to="/services#ppc" className="navbar__links__link">PPC</Link></li>
+                        <li><Link to="/services#design" className="navbar__links__link">Design</Link></li>
+                        <li><Link to="/services#cro" className="navbar__links__link">CRO</Link></li>
                     </ul>
                 </div>
                 <div className="footer__grid__col3">
                     <h3 className="subtitle">Company</h3>
                     <ul>
-                        <li><a href="">Projects</a></li>
-                        <li><a href="">People</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><Link to="/services" className="navbar__links__link">Services</Link></li>
+                        <li><Link to="/projects" className="navbar__links__link">Projects</Link></li>
+                        <li><Link to="/people" className="navbar__links__link">People</Link></li>
+                        <li><Link to="/about" className="navbar__links__link">About</Link></li>
                     </ul>
                 </div>
                 <div className="footer__grid__col4">
@@ -43,7 +42,6 @@ const Footer = () => (
                         <li>41 Victoria Road</li>
                         <li>Crosby, L23 7XY</li>
                         <li>info@bluehorndigital.co.uk</li>
-                        <li>0151 903 9328</li>
                     </ul>
                 </div>
             </div>

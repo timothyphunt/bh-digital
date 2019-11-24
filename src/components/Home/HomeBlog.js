@@ -9,7 +9,7 @@ class HomeBlog extends Component {
                 <div className="container">
                     <hr />
                     <h1 className="title">Latest News</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quidem. Unde officia rerum modi quaerat vel libero sunt. Commodi, ut? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, ducimus.</p>
+                    <p>Stay in the loop on newly emerging digital techniques and trends within the marketing industry. We keep our finger on the pulse when it comes to progressive methods of improving online performance – so stay informed!</p>
                     <div className="homeBlog__grid">
                         {this.props.blogs.map(edge => 
                             <div className="homeBlog__grid__blog" key={edge.node.id}>

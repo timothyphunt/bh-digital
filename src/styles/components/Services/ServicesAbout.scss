@@ -8,6 +8,23 @@
     }
 }
 
+.servicesAbout__service__bulletpoints {
+    width: 100%;
+    padding-bottom: 20px;
+
+    ul {
+        width: 50%;
+        text-align: left;
+        list-style-type: circle;
+        margin: 0 auto;
+    }
+
+    li {
+        padding: 10px 0;
+        line-height: 30px;
+    }
+}
+
 .servicesAbout__service {
     padding-bottom: 80px;
 
