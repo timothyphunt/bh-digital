@@ -47,7 +47,7 @@ class HomeProjects extends Component {
         return (
             <section className="homeProjects container">
                 <h1 className="title">Our Projects</h1>
-                <p>We have completed numerous products across a wide spectrum of product advertising. We work closely with clients to understand exactly what they need and deliver above their expectations. Our body of work speaks for itself, so we don’t have to. </p>
+                <p>We have worked with number companies on a wide range of diverse marketing campaigns. We aim to work closely with clients to understand exactly what they need and deliver above their expectations. Our body of work speaks for itself, so we don’t have to. </p>
                 <div className="homeProjects__buttons">
                     { 
                         buttons.map(tag => 
