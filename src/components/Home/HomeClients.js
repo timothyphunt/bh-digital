@@ -36,7 +36,7 @@ class HomeClients extends Component {
                                     </div>
                                 </div>
                                 <p className="homeCLients__grid__client__quote">
-                                “Bluehorn has been responsible for the production and full optimisation of all the groups websites. Their depth of understanding of our markets, products and customers has been demonstrated by the ongoing improved performance of our websites, which has been verified by increased sales achieved.”
+                                “Bluehorn has been responsible for the production and full optimisation of our Groups websites. Their depth of understanding of our markets, products and customers has been demonstrated by the ongoing improved performance of our websites, which has been verified by increased sales achieved.”
                                 </p>
                             </div>
                         </ScrollAnimation>
