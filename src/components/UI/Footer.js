@@ -42,7 +42,7 @@ const Footer = () => (
                         <li>41 Victoria Road</li>
                         <li>Crosby, L23 7XY</li>
                         <li><font color="blue"><a href="mailto:tim@bluehorndigital.co.uk?Subject=Website Enquiry" target="_top">info@bluehorndigital.co.uk</a></font></li>
-                        <li><a href="tel:+441516620008">0151 662 0008</a></li>                  
+                        <li><font color="blue"><a href="tel:+441516620008">0151 662 0008</a></font></li>                  
                    </ul>
                 </div>
             </div>
