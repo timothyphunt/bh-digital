@@ -12,11 +12,7 @@ class HomeServices extends Component {
                 <div className="container">
                     <h1 className="title">Our Services</h1>
                     <p>
-                        We are an inclusive digital marketing agency, offering a multitude of online services, such as web design and development, digital campaign design, ongoing SEO maintenance, social media marketing, and PPC (Pay-per-click) management. We work closely with our clients to develop their brand, create new business leads and maximise their online earning potential.
-                    </p>
-                    <br />
-                    <p>
-                    We will fully analyse your online portfolio and develop specific and proven strategies for you to develop your brand and reach your online audience. We specialise in e-commerce websites and develop marketing campaigns to ensure our clients see consistent results and diversify their online revenue stream. 
+                        We are an inclusive digital marketing agency, offering a multitude of online services, such as web design and development, digital campaign design, ongoing SEO maintenance, social media marketing, and PPC (Pay-per-click) management. We work closely with our clients to develop their brand, create new business leads and maximise their online earning potential. We will fully analyse your online portfolio and develop specific and proven strategies for you to develop your brand and reach your online audience. We specialise in e-commerce websites and develop marketing campaigns to ensure our clients see consistent results and diversify their online revenue stream. 
                     </p>
                     <div className="homeServices__panels">
                         <div className="homeServices__panel">
