@@ -31,7 +31,7 @@ class HomeClients extends Component {
                         <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                             <div className="homeClients__grid__client">
                                 <div className="homeClients__grid__client__info">
-                                    <img src={LockieLtd} alt="second client" />
+                                    <img src={LockieLtd} alt="Lockie Ltd" />
                                     <div className="homeClients__grid__client__info__text">
                                         <h3 className="subtitle">Bob Pooley</h3>
                                         <p>MD, <b>Lockie Limited</b></p>
@@ -45,7 +45,7 @@ class HomeClients extends Component {
                         <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                             <div className="homeClients__grid__client">
                                 <div className="homeClients__grid__client__info">
-                                    <img src={DiageoLtd} alt="third client" />
+                                    <a href="diageo.com"> <img src={DiageoLtd} alt="Diageo" /></a>
                                     <div className="homeClients__grid__client__info__text">
                                         <h3 className="subtitle">Eddie Simpkins</h3>
                                         <p>NA Executive, <b>Diageo</b></p>
