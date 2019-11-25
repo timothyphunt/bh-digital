@@ -3,7 +3,7 @@ import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 import Lockie from '../../../static/assets/projects/lockie1.jpg';
-import JW from '../../../static/assets/projects/jw1.jpg';
+import JW from '../../../static/assets/projects/jwp-project-devices.jpg';
 import HH from '../../../static/assets/projects/hh1.jpg';
 
 const ProjectsAbout = () => (
