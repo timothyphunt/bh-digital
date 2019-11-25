@@ -50,7 +50,7 @@ class HomeClients extends Component {
                                     </div>
                                 </div>
                                 <p className="homeCLients__grid__client__quote">
-                                    “Excellent working with BH on our Metro Pubs brochure on behalf of Green King – exactly what we needed for our activation campaign. They always deliver top-notch design work for any style of campaign - highly recommend.”
+                                    “Excellent working with BH on our Metro Pubs brochure on behalf of Green King – exactly what we needed for our activation campaign. They always deliver top-notch design work for any style of campaign and are very easy to work with in order to meet project delivery schedules - highly recommend.”
                                 </p>
                             </div>
                         </ScrollAnimation>
