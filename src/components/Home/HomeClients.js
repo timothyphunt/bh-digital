@@ -18,7 +18,7 @@ class HomeClients extends Component {
                                     <img src={LakeGroup} alt="first client" />
                                     <div className="homeClients__grid__client__info__text">
                                         <h3 className="subtitle">Thomas Moville</h3>
-                                        <p>BD Manager, JW Products</p>
+                                        <p>BD Manager, <b>JW Products</b></p>
                                     </div>
                                 </div>
                                 <p className="homeCLients__grid__client__quote">
@@ -32,7 +32,7 @@ class HomeClients extends Component {
                                     <img src={LakeGroup} alt="second client" />
                                     <div className="homeClients__grid__client__info__text">
                                         <h3 className="subtitle">Bob Pooley</h3>
-                                        <p>MD, Lockie Limited</p>
+                                        <p>MD, <b>Lockie Limited</b></p>
                                     </div>
                                 </div>
                                 <p className="homeCLients__grid__client__quote">
@@ -46,7 +46,7 @@ class HomeClients extends Component {
                                     <img src={LakeGroup} alt="third client" />
                                     <div className="homeClients__grid__client__info__text">
                                         <h3 className="subtitle">Eddie Simpkins</h3>
-                                        <p>NA Executive, Diageo</p>
+                                        <p>NA Executive, <b>Diageo</b></p>
                                     </div>
                                 </div>
                                 <p className="homeCLients__grid__client__quote">
