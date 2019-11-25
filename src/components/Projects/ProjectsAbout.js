@@ -2,7 +2,7 @@ import React from 'react';
 
 import ScrollAnimation from 'react-animate-on-scroll';
 
-import Lockie from '../../../static/assets/projects/lockie1.jpg';
+import Lockie from '../../../static/assets/projects/lockie-device-projects.jpg';
 import JW from '../../../static/assets/projects/jwp-project-devices.jpg';
 import HH from '../../../static/assets/projects/hh-devices-feature.jpg';
 
@@ -29,7 +29,7 @@ const ProjectsAbout = () => (
             <div className="projectsAbout__project__caseStudy container">
                 <h2 className="subtitle">Strategy</h2>
                 <p>Lockie Limited have been producing bespoke church and charity collection envelopes for over 50 years. In 2019, we undertook the project to redesign and develop a bespoke website, which would allow customers to see a digital proof of their envelopes in real time as they entered their print details. Due to a complex pricing structure, the website would also need to calculate prices on a multitude of variations and display an accurate price before checkout. The website went live in April 2019 and continues to see monthly growth and improvements in e-commerce conversion rate and organic search performance.</p>
-                <img src={Lockie} alt="lockie group" />
+                <img src={Lockie} alt="lockie group web development" />
                 <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                     <div className="projectsAbout__project__caseStudy__metrics">
                         <div className="projectsAbout__project__caseStudy__metrics__metric">
@@ -70,7 +70,7 @@ const ProjectsAbout = () => (
             <div className="projectsAbout__project__caseStudy container">
                 <h2 className="subtitle">Strategy</h2>
                 <p>JW Security Products has supplied security seals nationwide for nearly 20 years. In 2019, we undertook the full redesign and development of their website, which moved from a quote only website to a full e-commerce website with over 80 products currently listed in their online catalogue. The e-commerce functionality allowed immediate sales revenue to be generated, which has continued to increase month to month. With the redesign of the company logo, a hero product catalogue design, PPC campaigns, SEO management, and high-quality digital advertisements, the company has expanded its online portfolio and continues to diversify its approach to the digital space.</p>
-                <img src={JW} alt="case study" />
+                <img src={JW} alt="JW Products Web Development" />
                 <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                     <div className="projectsAbout__project__caseStudy__metrics">
                         <div className="projectsAbout__project__caseStudy__metrics__metric">
@@ -111,7 +111,7 @@ const ProjectsAbout = () => (
             <div className="projectsAbout__project__caseStudy container">
                 <h2 className="subtitle">Strategy</h2>
                 <p>The reinvention of the H&H brand began with a modern facelift of its current e-commerce website, which introduced a refined landing page, product highlight recommendations, and a more streamlined checkout process. We also produced a high quality 40-page catalogue with feature photography and introduced a brand-new product range. These product catalogues were then distributed through the company’s annual mass mailing to existing customers. This campaign resulted in a 00% increase in sales compared to the same month of the previous year. We also refined existing PPC campaigns, introduced Shopping Ads, setup 3rd party sales platforms, and carried out consistent SEO maintenance. This produced fantastic results for the company’s online sales revenue.</p>
-                <img src={HH} alt="case study" />
+                <img src={HH} alt="handh web development" />
                 <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                     <div className="projectsAbout__project__caseStudy__metrics">
                         <div className="projectsAbout__project__caseStudy__metrics__metric">
