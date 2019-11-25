@@ -17,10 +17,10 @@ class HomeClients extends Component {
                         <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                             <div className="homeClients__grid__client">
                                 <div className="homeClients__grid__client__info">
-                                    <a href="https://www.jwproducts.co.uk/"> target="_blank" <img src={JWPLtd} alt="JW Security Products" /></a>
+                                    <a href="https://www.jwproducts.co.uk/" target="_blank">  <img src={JWPLtd} alt="JW Security Products" /></a>
                                     <div className="homeClients__grid__client__info__text">
                                         <h3 className="subtitle">Tom Moville</h3>
-                                        <p>BD Manager, <b>JW Products</b></p>
+                                        <p>BD Manager, JW Products</p>
                                     </div>
                                 </div>
                                 <p className="homeCLients__grid__client__quote">
@@ -31,10 +31,10 @@ class HomeClients extends Component {
                         <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                             <div className="homeClients__grid__client">
                                 <div className="homeClients__grid__client__info">
-                                     <a href="https://www.lockiechurch.com"> target="_blank" <img src={LockieLtd} alt="Lockie Ltd" /></a>
+                                     <a href="https://www.lockiechurch.com" target="_blank"> <img src={LockieLtd} alt="Lockie Ltd" /></a>
                                     <div className="homeClients__grid__client__info__text">
                                         <h3 className="subtitle">Bob Pooley</h3>
-                                        <p>MD, <b>Lockie Limited</b></p>
+                                        <p>MD, Lockie Limited</p>
                                     </div>
                                 </div>
                                 <p className="homeCLients__grid__client__quote">
@@ -45,10 +45,10 @@ class HomeClients extends Component {
                         <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                             <div className="homeClients__grid__client">
                                 <div className="homeClients__grid__client__info">
-                                    <a href="https://www.diageo.com"> target="_blank" <img src={DiageoLtd} alt="Diageo" /></a>
+                                    <a href="https://www.diageo.com" target="_blank"> <img src={DiageoLtd} alt="Diageo" /></a>
                                     <div className="homeClients__grid__client__info__text">
                                         <h3 className="subtitle">Eddie Simpkins</h3>
-                                        <p>NA Executive, <b>Diageo</b></p>
+                                        <p>NA Executive, Diageo</p>
                                     </div>
                                 </div>
                                 <p className="homeCLients__grid__client__quote">
