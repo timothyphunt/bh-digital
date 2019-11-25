@@ -23,7 +23,7 @@ class HomeServices extends Component {
                                     <p>
                                         Content marketing and e-commerce optimization can generate web traffic and create a direct line of communication with your customers. We only create high quality and engaging content marketing campaigns which focus on reaching potential customers in the most effective way possible.
                                     </p>
-                                 <a href="/services#seo" button className="btn btn--blue">Learn more</a>
+                                 <a href="/services" button className="btn btn--blue">Learn more</a>
                                 </div>
                             </ScrollAnimation>
                         </div>
@@ -35,7 +35,7 @@ class HomeServices extends Component {
                                     <p>
                                         We have created websites, digital campaigns and advertising material for all company sizes, including start-ups, SMEs and global corporations. We specialise in the development of bespoke WordPress powered websites and combine our knowledge of UX design with cutting-edge web development technology.
                                     </p>
-                                     <a href="/services#design" button className="btn btn--blue">Learn more</a>
+                                     <a href="/services" button className="btn btn--blue">Learn more</a>
                                 </div>
                             </ScrollAnimation>
                         </div>
@@ -47,7 +47,7 @@ class HomeServices extends Component {
                                     <p>
                                         We provide an in-depth analysis on the specific requirements of your business in order to develop the right approach to promote a refined company and product image. Our dedicated strategists and designers come together to create and deliver a richer, more polished appearance to your communication channels.
                                     </p>
-                                  <a href="/services#design" button className="btn btn--blue">Learn more</a>
+                                  <a href="/services" button className="btn btn--blue">Learn more</a>
                                 </div>
                             </ScrollAnimation>
                         </div>
