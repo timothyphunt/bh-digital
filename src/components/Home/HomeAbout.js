@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Office from '../../../static/assets/office.jpg';
+import Office from '../../../static/assets/bluehorn-digital-office.jpg';
 
 
 const HomeAbout = () => (
