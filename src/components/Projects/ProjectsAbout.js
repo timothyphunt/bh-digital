@@ -4,7 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 import Lockie from '../../../static/assets/projects/lockie1.jpg';
 import JW from '../../../static/assets/projects/jwp-project-devices.jpg';
-import HH from '../../../static/assets/projects/hh1.jpg';
+import HH from '../../../static/assets/projects/hh-devices-feature.jpg';
 
 const ProjectsAbout = () => (
     <section className="projectsAbout">
