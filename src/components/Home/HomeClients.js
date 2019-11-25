@@ -3,7 +3,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 import LockieLtd from '../../../static/assets/lockie-ltd.jpg';
 import DiageoLtd from '../../../static/assets/diageo.jpg';
-import JWPLtd from '../../../static/assets/jwproducts-logo.jpg';
+import JWPLtd from '../../../static/assets/jwproducts-logo.png';
 
 class HomeClients extends Component {
     render() {
