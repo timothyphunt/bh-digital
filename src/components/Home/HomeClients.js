@@ -19,7 +19,7 @@ class HomeClients extends Component {
                                 <div className="homeClients__grid__client__info">
                                     <a href="jwproducts.co.uk"> <img src={JWPLtd} alt="JW Security Products" /> =</a>
                                     <div className="homeClients__grid__client__info__text">
-                                        <h3 className="subtitle">Thomas Moville</h3>
+                                        <h3 className="subtitle">Tom Moville</h3>
                                         <p>BD Manager, <b>JW Products</b></p>
                                     </div>
                                 </div>
