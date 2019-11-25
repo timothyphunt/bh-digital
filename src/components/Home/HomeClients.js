@@ -17,7 +17,7 @@ class HomeClients extends Component {
                         <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                             <div className="homeClients__grid__client">
                                 <div className="homeClients__grid__client__info">
-                                    <a href="jwproducts.co.uk"> <img src={JWPLtd} alt="JW Security Products" /> =</a>
+                                    <a href="jwproducts.co.uk"> <img src={JWPLtd} alt="JW Security Products" /></a>
                                     <div className="homeClients__grid__client__info__text">
                                         <h3 className="subtitle">Tom Moville</h3>
                                         <p>BD Manager, <b>JW Products</b></p>
