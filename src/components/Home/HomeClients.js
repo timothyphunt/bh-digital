@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-import LakeGroup from '../../../static/assets/lake3.jpg';
+import LockieLtd from '../../../static/assets/lockie-ltd.jpg';
+import DiageoLtd from '../../../static/assets/diageo.jpg';
+import JWPLtd from '../../../static/assets/jwproducts-logo.jpg';
 
 class HomeClients extends Component {
     render() {
@@ -15,7 +17,7 @@ class HomeClients extends Component {
                         <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                             <div className="homeClients__grid__client">
                                 <div className="homeClients__grid__client__info">
-                                    <img src={LakeGroup} alt="first client" />
+                                    <a href="jwproducts.co.uk"> <img src={JWPLtd} alt="JW Security Products" /> =</a>
                                     <div className="homeClients__grid__client__info__text">
                                         <h3 className="subtitle">Thomas Moville</h3>
                                         <p>BD Manager, <b>JW Products</b></p>
