@@ -10,7 +10,6 @@
             padding-bottom: 40px;
         }
     }
-
 }
 
 .homeClients__grid {
@@ -33,7 +32,6 @@
     @include curvedborder;
     padding: 20px;
     margin-top: 40px;
-    
 
     img {
         width: 100%;
@@ -42,7 +40,7 @@
     @media only screen and (min-width: 992px) {
         padding: 40px 20px;
         margin: 80px 0;
-        min-height: 340px;
+        min-height: 425px;
     }
 }
 
@@ -67,10 +65,7 @@
             text-align: left;
         }
     }
-    
 }
-
-
 
 .homeCLients__grid__client__quote {
     margin-top: 20px;

@@ -1,11 +1,11 @@
 .homeProjects {
     padding: 80px 0;
     text-align: center;
+
     p {
         margin-bottom: 40px;
     }
 }
-
 
 .homeProjects__grid {
     display: grid;
@@ -27,6 +27,7 @@
 
 .homeProjects__buttons {
     padding-bottom: 40px;
+
     button {
         margin: 0 10px;
     }
@@ -36,11 +37,10 @@
     h1 {
         margin-top: 20px;
     }
+
     img {
         @include boxshadow;
         object-fit: cover;
         height: 337px;
-        // @include curvedborder;
     }
-    
 }
