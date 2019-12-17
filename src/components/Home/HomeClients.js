@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-import LockieLtd from '../../../static/assets/lockie-ltd.jpg';
-import DiageoLtd from '../../../static/assets/diageo.jpg';
-import JWPLtd from '../../../static/assets/jw-products-logo.jpg';
+import DiageoLogo from '../../../static/assets/projects/diageologo.jpg'
+import JWLogo from '../../../static/assets/projects/jwlogo.jpg'
+import LockieLogo from '../../../static/assets/projects/lockielogo.jpg'
 
 class HomeClients extends Component {
     render() {
@@ -17,7 +17,7 @@ class HomeClients extends Component {
                         <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                             <div className="homeClients__grid__client">
                                 <div className="homeClients__grid__client__info">
-                                    <a href="https://www.jwproducts.co.uk/" target="_blank">  <img src={JWPLtd} alt="JW Security Products" /></a>
+                                    <img src={JWLogo} alt="first client" />
                                     <div className="homeClients__grid__client__info__text">
                                         <h3 className="subtitle">Tom Moville</h3>
                                         <p>BD Manager, JW Products</p>
@@ -31,7 +31,7 @@ class HomeClients extends Component {
                         <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                             <div className="homeClients__grid__client">
                                 <div className="homeClients__grid__client__info">
-                                     <a href="https://www.lockiechurch.com" target="_blank"> <img src={LockieLtd} alt="Lockie Ltd" /></a>
+                                    <img src={LockieLogo} alt="second client" />
                                     <div className="homeClients__grid__client__info__text">
                                         <h3 className="subtitle">Bob Pooley</h3>
                                         <p>MD, Lockie Limited</p>
@@ -45,14 +45,14 @@ class HomeClients extends Component {
                         <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                             <div className="homeClients__grid__client">
                                 <div className="homeClients__grid__client__info">
-                                    <a href="https://www.diageo.com" target="_blank"> <img src={DiageoLtd} alt="Diageo" /></a>
+                                    <img src={DiageoLogo} alt="third client" />
                                     <div className="homeClients__grid__client__info__text">
                                         <h3 className="subtitle">Eddie Simpkins</h3>
                                         <p>NA Executive, Diageo</p>
                                     </div>
                                 </div>
                                 <p className="homeCLients__grid__client__quote">
-                                    “Excellent working with BH on our Metro Pubs brochure on behalf of Green King – exactly what we needed for our activation campaign. They always deliver top-notch design work for any style of campaign and are very easy to work with in order to meet project delivery schedules - highly recommend.”
+                                “Excellent working with BH on our Metro Pubs brochure on behalf of Green King – exactly what we needed for our activation campaign. They always deliver top-notch design work for any style of campaign and are very easy to work with in order to meet project delivery schedules - highly recommend.”
                                 </p>
                             </div>
                         </ScrollAnimation>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import TextLoop from "react-text-loop";
+import Link from 'gatsby-link';
 
 class HomeHero extends Component {
     render() {
@@ -18,7 +19,9 @@ class HomeHero extends Component {
                             </TextLoop>
                         </h1>
                         <h2 className="subtitle">Digital marketing and design agency based in Liverpool</h2>
-                      <a href="/services" button className="btn btn--blue">Learn more</a>
+                        <Link to="/#about">
+                            <button className="btn btn--blue">Learn more</button>
+                        </Link>
                     </ScrollAnimation>
                 </div>
                 <svg className="homeHero__wavyDiv" id="" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1416.99 174.01">
