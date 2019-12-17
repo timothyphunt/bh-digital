@@ -6,6 +6,8 @@ Install this starter (assuming Gatsby is installed) by running from your CLI:
 ```
 gatsby new gatsby-site https://github.com/erquhart/gatsby-netlify-cms-example
 ```
+Created using Gatsby V1 - all plugins should reflect this, if having an issue installing latest Gatsby plugins revert to a previous version prior to Gatsby V2.
+Ensure that all .env files have been copied when cloning repo.
 
 ## Running in development
 `gatsby develop`
