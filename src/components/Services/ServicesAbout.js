@@ -1,9 +1,9 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-import Lockie from '../../../static/assets/projects/lockie-mobile.jpg';
-import JW from '../../../static/assets/projects/jwp-flyer-feature.jpg';
-import HH from '../../../static/assets/projects/hh-mobile.jpg';
+import Lockie from '../../../static/projects/lockie-mobile.jpg';
+import JW from '../../../static/assets/jwp-flyer-feature.jpg';
+import HH from '../../../static/assets/hh-mobile.jpg';
 
 const ServicesAbout = () => (
     <section className="servicesAbout">
