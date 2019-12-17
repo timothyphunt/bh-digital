@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
+import Link from 'gatsby-link';
 
 import Desk from '../../../static/assets/desk.jpg';
 import Design from '../../../static/assets/design.jpg';
@@ -12,7 +13,7 @@ class HomeServices extends Component {
                 <div className="container">
                     <h1 className="title">Our Services</h1>
                     <p>
-                        We are an inclusive marketing agency, offering a multitude of online services, such as web design and development, digital campaign design, ongoing SEO maintenance, social media marketing, and PPC (Pay-per-click) management. We work closely with our clients to develop their brand, create new business leads and maximise their online earning potential. We will fully analyse your online portfolio and create a tailored strategy for you to grow your brand and reach your online target audience. We specialise in building e-commerce websites alongside a cohesive marketing campaign to ensure our clients see consistent results and diversify their online revenue stream. 
+                    We are an inclusive marketing agency, offering a multitude of online services, such as web design and development, digital campaign design, ongoing SEO maintenance, social media marketing, and PPC (Pay-per-click) management. We work closely with our clients to develop their brand, create new business leads and maximise their online earning potential. We will fully analyse your online portfolio and create a tailored strategy for you to grow your brand and reach your online target audience. We specialise in building e-commerce websites alongside a cohesive marketing campaign to ensure our clients see consistent results and diversify their online revenue stream.
                     </p>
                     <div className="homeServices__panels">
                         <div className="homeServices__panel">
@@ -23,7 +24,9 @@ class HomeServices extends Component {
                                     <p>
                                         Content marketing and e-commerce optimization can generate web traffic and create a direct line of communication with your customers. We only create high quality and engaging content marketing campaigns which focus on reaching potential customers in the most effective way possible.
                                     </p>
-                                 <a href="/services" button className="btn btn--blue">Learn more</a>
+                                    <Link to="/services">
+                                        <button className="btn btn--blue">Learn more</button>
+                                    </Link>
                                 </div>
                             </ScrollAnimation>
                         </div>
@@ -35,7 +38,9 @@ class HomeServices extends Component {
                                     <p>
                                         We have created websites, digital campaigns and advertising material for all company sizes, including start-ups, SMEs and global corporations. We specialise in the development of bespoke WordPress powered websites and combine our knowledge of UX design with cutting-edge web development technology.
                                     </p>
-                                     <a href="/services" button className="btn btn--blue">Learn more</a>
+                                    <Link to="/services#design">
+                                        <button className="btn btn--blue">Learn more</button>
+                                    </Link>
                                 </div>
                             </ScrollAnimation>
                         </div>
@@ -47,7 +52,9 @@ class HomeServices extends Component {
                                     <p>
                                         We provide an in-depth analysis on the specific requirements of your business in order to develop the right approach to promote a refined company and product image. Our dedicated strategists and designers come together to create and deliver a richer, more polished appearance to your communication channels.
                                     </p>
-                                  <a href="/services" button className="btn btn--blue">Learn more</a>
+                                    <Link to="/services#cro">
+                                        <button className="btn btn--blue">Learn more</button>
+                                    </Link>
                                 </div>
                             </ScrollAnimation>
                         </div>
