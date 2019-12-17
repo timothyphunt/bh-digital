@@ -24,7 +24,7 @@ class Home extends Component {
             <Layout>
               <Helmet link={[{ rel: 'shortcut icon', type: 'image/png', href: `${Favicon}` }]}>
                 <meta charSet="utf-8" />
-                <title>Bluehorn Digital</title>
+                <title>Digital Marketing & Design | Liverpool | Bluehorn Digital </title>
               </Helmet>
               <Navbar />
               <HomeHero />
