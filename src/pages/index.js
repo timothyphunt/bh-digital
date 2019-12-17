@@ -1,5 +1,8 @@
 import React, { Component } from "react"
 import { Link } from 'react-router-dom';
+import { Helmet } from "react-helmet"
+
+import Favicon from '../../static/assets/favicon.png';
 
 // fetch blog data from markdown files
 import Layout from '../components/Layout';
@@ -19,19 +22,23 @@ class Home extends Component {
 
         return (
             <Layout>
-            <Navbar />
-            <HomeHero />
-            <HomeServices />
-            <HomeAbout />
-            <HomeProjects />
-            <HomeClients />
-            {/* <HomeBlog blogs={edges.slice(0, 3)} /> */}
-            <ContactBox />
-            <Footer />
-                {/* { edges.map(edge => <div key={edge.node.id}>
-                    <Link to={edge.node.frontmatter.path}>{edge.node.frontmatter.title}</Link>
-                    </div>
-                )} */}
+              <Helmet link={[{ rel: 'shortcut icon', type: 'image/png', href: `${Favicon}` }]}>
+                <meta charSet="utf-8" />
+                <title>Bluehorn Digital</title>
+              </Helmet>
+              <Navbar />
+              <HomeHero />
+              <HomeServices />
+              <HomeAbout />
+              <HomeProjects />
+              <HomeClients />
+              {/* <HomeBlog blogs={edges.slice(0, 3)} /> */}
+              <ContactBox />
+              <Footer />
+                  {/* { edges.map(edge => <div key={edge.node.id}>
+                      <Link to={edge.node.frontmatter.path}>{edge.node.frontmatter.title}</Link>
+                      </div>
+                  )} */}
             </Layout>
         )
     }
