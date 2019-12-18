@@ -1,19 +1,23 @@
 .homeHero {
     text-align: center;
     background: rgb(151,168,214);
-    background: linear-gradient(to bottom right, rgba(55, 55, 55, 0.6), rgba(138, 138, 138, 0.8)), url('../../static/assets/multicolour.jpg') no-repeat 50% fixed; 
+    background: linear-gradient(to bottom right, rgba(55, 55, 55, 0.6), rgba(138, 138, 138, 0.8)), url('../../static/assets/multicolour.jpg') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     position: relative;
     min-height: 600px;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
     display: flex;
 
     @media only screen and (min-width: 1400px) {
         min-height: 800px;
     }
 }
+
 
 .homeHero__text {
     margin: auto auto;
