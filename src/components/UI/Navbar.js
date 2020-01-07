@@ -50,13 +50,10 @@ class Navbar extends Component {
                                 <Link to="/people">People</Link>
                             </div>
                             <div className="navbar__slideout__link">
-                                <Link to="/blog">Blog</Link>
+                                <Link to="/#about">About</Link>
                             </div>
                             <div className="navbar__slideout__link">
-                                <Link to="/about">About</Link>
-                            </div>
-                            <div className="navbar__slideout__link">
-                                <Link to="/contact">Contact</Link>
+                                <Link to="/#contact">Contact</Link>
                             </div>
                         </div>
                     )
