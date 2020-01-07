@@ -1,5 +1,5 @@
 .navbar__wrapper {
-    @include boxshadow;
+    @include boxshadow--dark;
 }
 
 .navbar {

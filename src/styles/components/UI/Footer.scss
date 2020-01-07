@@ -16,6 +16,10 @@
         margin-bottom: 10px;
     }
 
+    .navbar__links__link {
+        margin-left: 0;
+    }
+
     .navbar__logo {
         margin-left: 20px;
         max-width: 90px;
@@ -27,6 +31,10 @@
 
         .footer__grid__col1 {
             grid-row-start: 1;
+        }
+
+        .navbar__links__link {
+            margin-left: 20px;
         }
     }
 }
@@ -53,4 +61,3 @@
         }
     }
 }
-
