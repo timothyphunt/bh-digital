@@ -14,7 +14,7 @@ const HomeAbout = () => (
                     <p>Bluehorn Digital is a Liverpool-based, full-service marketing agency with dedicated professionals and specialist knowledge in web design, digital marketing, paid search and SEO strategies. Using a creative and analytical approach to marketing, we help companies of all sizes maximise their online earning potential and develop their brand.</p>
                     <p>Here at Bluehorn, we employ a research-based approach, allowing for a tailored marketing and brand development plan for your company. We are based in Liverpool and frequently visit clients throughout the North West area as part of a hands-on approach to develop effective digital strategies for your company.</p>
                     <Link to="/#contact">
-                        <button className="btn btn--blue"><center>contact us</center></button>
+                       <center><button className="btn btn--blue">contact us</button></center>
                     </Link>
                 </div>
             </div>
