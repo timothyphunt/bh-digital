@@ -3,7 +3,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 import DiageoLogo from '../../../static/assets/projects/diageologo.jpg'
 import JWLogo from '../../../static/assets/projects/jwlogo.jpg'
-import LockieLogo from '../../../static/assets/projects/lockielogo.jpg'
+import GrazerLogo from '../../../static/assets/projects/grazer.png'
 
 class HomeClients extends Component {
     render() {
@@ -31,14 +31,14 @@ class HomeClients extends Component {
                         <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                             <div className="homeClients__grid__client">
                                 <div className="homeClients__grid__client__info">
-                                    <img src={LockieLogo} alt="second client" />
+                                    <img src={GrazerLogo} alt="Grazer Liverpool" />
                                     <div className="homeClients__grid__client__info__text">
-                                        <h3 className="subtitle">Bob Pooley</h3>
-                                        <p>MD, Lockie Limited</p>
+                                        <h3 className="subtitle">Hannah Stanley</h3>
+                                        <p>Director, Grazer Liverpool</p>
                                     </div>
                                 </div>
                                 <p className="homeCLients__grid__client__quote">
-                                “Bluehorn has been responsible for the production and full optimisation of our Groups websites. Their depth of understanding of our markets, products and customers has been demonstrated by the ongoing improved performance of our websites, which has been verified by increased sales achieved.”
+                                “Bluehorn designed and built website and optimised our SEO which saw us place on the first page on Google. They have been involved from the beginning and have brought us massive return via online sales.”
                                 </p>
                             </div>
                         </ScrollAnimation>
