@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import GrazerLiverpool from '../../../static/assets/projects/grazer-liv.jpg';
+import GrazerLiverpool from '../../../static/assets/grazer-liv.jpg';
 import JW from '../../../static/assets/projects/jw3.jpg';
 import Pillarbox from '../../../static/assets/projects/pillarbox2.jpg';
 import HH from '../../../static/assets/projects/hh2.jpg';
