@@ -40,7 +40,8 @@ const Footer = () => (
                     <ul>
                         <li>Bluehorn Digital</li>
                         <li>41 Victoria Road</li>
-                        <li>Crosby, L23 7XY</li>
+                        <li>Crosby, Liverpool</li> 
+                        <li>L23 7XY</li>
                         <li><font color="blue"><a href="mailto:hello@bluehorndigital.co.uk?Subject=Website Enquiry" target="_top">hello@bluehorndigital.co.uk</a></font></li>           
                    </ul>
                 </div>
