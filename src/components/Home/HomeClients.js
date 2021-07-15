@@ -3,7 +3,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 import DiageoLogo from '../../../static/assets/projects/diageologo.jpg'
 import JWLogo from '../../../static/assets/projects/jwlogo.jpg'
-import GrazerLogo from '../../../static/assets/projects/grazer.png'
+import GrazerLogo from '../../../static/assets/projects/grazer-logo.jpg'
 
 class HomeClients extends Component {
     render() {
