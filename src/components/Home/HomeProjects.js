@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import LockieGroup from '../../../static/assets/projects/lockie3.jpg';
+import GrazerLiverpool from '../../../static/assets/projects/grazer-liv.jpg';
 import JW from '../../../static/assets/projects/jw3.jpg';
 import Pillarbox from '../../../static/assets/projects/pillarbox2.jpg';
 import HH from '../../../static/assets/projects/hh2.jpg';
@@ -8,7 +8,7 @@ import Money from '../../../static/assets/projects/money1.jpg';
 import Diageo from '../../../static/assets/projects/diageo2.jpg';
 
 const projects = [
-    { title: 'Lockie Group', tags: ['Digital'], img: LockieGroup, services: 'Design • SEO • PPC' },
+    { title: 'Grazer Liverpool', tags: ['Digital'], img: GrazerLiverpool, services: 'Design • SEO • PPC' },
     { title: 'JW Products', tags: ['Digital', 'Marketing'], img: JW, services: 'Logo • SEO • Analytics' },
     { title: 'Diageo', tags: ['Marketing', 'Logo', 'Web'], img: Diageo, services: 'Design • Marketing • Printing' },
     { title: 'Hammond & Harper', tags: ['Digital', 'Marketing', 'Web'], img: HH, services: 'Design • SEO • PPC' },
