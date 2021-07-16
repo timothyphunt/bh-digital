@@ -38,7 +38,7 @@ class HomeClients extends Component {
                                     </div>
                                 </div>
                                 <p className="homeCLients__grid__client__quote">
-                                “Bluehorn designed and built our website and optimised our SEO which saw us place on the first page on Google. They have been involved from the beginning and have brought us massive return via online sales.”
+                                “Bluehorn designed and built our website and optimised our SEO which saw us place on the first page on Google. They have been involved from the beginning and have brought us a huge increase in online sales and a high number of instagram followers who fit our demographic for sales.”
                                 </p>
                             </div>
                         </ScrollAnimation>
