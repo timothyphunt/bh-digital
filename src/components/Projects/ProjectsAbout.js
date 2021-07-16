@@ -28,7 +28,7 @@ const ProjectsAbout = () => (
             </div>
             <div className="projectsAbout__project__caseStudy container">
                 <h2 className="subtitle">Web Development</h2>
-                <p>We were approach by Grazer Liverpool in 2021 to redevelop their website, improve their SEO performance and grow their social following. Within just a month period, we built a beautiful new website, optimised it for search engine ranking and gained them over 500 new followers on Instagram and 100 on Facebook. We increased their capacity to target new customers on socials and Google and they now rank on the first page of Google and are the number one search return on Bing for all of their primary keyword searches.</p>
+                <p>We were approached by Grazer Liverpool in 2021 to redevelop their website, improve their SEO performance and grow their social following. Within just a month period, we built a beautiful new website, optimised it for search engine ranking and gained them over 500 new followers on Instagram and 100 on Facebook. We increased their capacity to target new customers on socials and Google and they now rank on the first page of Google and are the number one search return on Bing for all of their primary keyword searches.</p>
                 <p>You can view their website at <a href="https://www.grazerliverpool.co.uk" target="_blank">www.grazerliverpool.co.uk</a> or view their instagram at <a href="https://www.instagram.com/grazerliverpool" target="_blank">www.instagram.com/grazerliverpool</a></p>
                <img src={GrazerLiverpool} alt="Grazer Liverpool Website" />
                 <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
