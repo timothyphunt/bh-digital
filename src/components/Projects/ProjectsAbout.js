@@ -2,7 +2,7 @@ import React from 'react';
 
 import ScrollAnimation from 'react-animate-on-scroll';
 
-import Lockie from '../../../static/assets/projects/lockie-device-projects.jpg';
+import GrazerLiverpool from '../../../static/assets/projects/grazer-liverpool.jpg';
 import JW from '../../../static/assets/projects/jwp-project-devices.jpg';
 import HH from '../../../static/assets/projects/hh-devices-feature.jpg';
 
@@ -19,7 +19,7 @@ const ProjectsAbout = () => (
                     <path className="cls-1" d="M0,280.8S283.66,59,608.94,163.56s437.93,150.57,808,10.34V309.54H0V280.8Z"
                     transform="translate(0 -135.53)" />
                 </svg>
-                <h2 className="subtitle">Lockie Group</h2>
+                <h2 className="subtitle">Grazer Liverpool</h2>
                 <svg className="projectsAbout__project__wavyDiv--bottom" id="" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1416.99 174.01">
                     <defs></defs><title></title>
                     <path className="cls-1" d="M0,280.8S283.66,59,608.94,163.56s437.93,150.57,808,10.34V309.54H0V280.8Z"
@@ -27,26 +27,27 @@ const ProjectsAbout = () => (
                 </svg>
             </div>
             <div className="projectsAbout__project__caseStudy container">
-                <h2 className="subtitle">Strategy</h2>
-                <p>Lockie Limited have been producing bespoke church and charity collection envelopes for over 50 years. In 2019, we undertook the project to redesign and develop a bespoke website, which would allow customers to see a digital proof of their envelopes in real time as they entered their print details. Due to a complex pricing structure, the website would also need to calculate prices on a multitude of variations and display an accurate price before checkout. The website went live in April 2019 and continues to see monthly growth and improvements in e-commerce conversion rate and organic search performance.</p>
-                <img src={Lockie} alt="lockie group web development" />
+                <h2 className="subtitle">Web Development</h2>
+                <p>We were approach by Grazer Liverpool in 2021 to redevelop their website, improve their SEO performance and grow their social following. Within just a month period, we built a beautiful new website, optimised it for search engine ranking and gained them over 500 new followers on Instagram and 100 on Facebook. We increased their capacity to target new customers on socials and Google and they now rank on the first page of Google and are the number one search return on Bing for all of their primary keyword searches.</p>
+                <p>You can view their website at <a href="url">www.grazerliverpool.co.uk</a> or view their instagram at <a href="url">www.instagram.com/grazerliverpool</a></p>
+               <img src={GrazerLiverpool} alt="Grazer Liverpool Website" />
                 <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                     <div className="projectsAbout__project__caseStudy__metrics">
                         <div className="projectsAbout__project__caseStudy__metrics__metric">
-                            <span>10%</span>
-                            <span>PPC ROI Improvement</span>
+                            <span>60%</span>
+                            <span>Organic Sales Improvement</span>
                         </div>
                         <div className="projectsAbout__project__caseStudy__metrics__metric">
-                            <span>10%</span>
+                            <span>60%</span>
                             <span>Web Traffic Increase</span>
                         </div>
                         <div className="projectsAbout__project__caseStudy__metrics__metric">
-                            <span>22%</span>
+                            <span>80%</span>
                             <span>New Customer Increase</span>
                         </div>
                         <div className="projectsAbout__project__caseStudy__metrics__metric">
-                            <span>34.6%</span>
-                            <span>E-mail Campaign Interaction</span>
+                            <span>500%</span>
+                            <span>Instagram Following</span>
                         </div>
                     </div>
                 </ScrollAnimation>
