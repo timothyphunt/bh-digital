@@ -8,7 +8,7 @@ import Money from '../../../static/assets/projects/money1.jpg';
 import Diageo from '../../../static/assets/projects/diageo2.jpg';
 
 const projects = [
-    { title: 'Grazer Liverpool', tags: ['Digital'], img: GrazerLiv, services: 'Design • SEO • PPC' },
+    { title: 'Grazer Liverpool', tags: ['Digital', 'Logo', 'Marketing', 'Web'], img: GrazerLiv, services: 'Design • SEO • PPC' },
     { title: 'JW Products', tags: ['Digital', 'Marketing'], img: JW, services: 'Logo • SEO • Analytics' },
     { title: 'Diageo', tags: ['Marketing', 'Logo', 'Web'], img: Diageo, services: 'Design • Marketing • Printing' },
     { title: 'Hammond & Harper', tags: ['Digital', 'Marketing', 'Web'], img: HH, services: 'Design • SEO • PPC' },
