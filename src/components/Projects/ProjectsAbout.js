@@ -71,6 +71,7 @@ const ProjectsAbout = () => (
             <div className="projectsAbout__project__caseStudy container">
                 <h2 className="subtitle">Strategy</h2>
                 <p>JW Security Products has supplied security seals nationwide for nearly 20 years. In 2019, we undertook the full redesign and development of their website, which moved from a quote only website to a full e-commerce website with over 80 products currently listed in their online catalogue. The e-commerce functionality allowed immediate sales revenue to be generated, which has continued to increase month to month. With the redesign of the company logo, a hero product catalogue design, PPC campaigns, SEO management, and high-quality digital advertisements, the company has expanded its online portfolio and continues to diversify its approach to the digital space.</p>
+<p>You can view their website at <a href="https://www.jwproducts.co.uk" target="_blank">www.jwproducts.co.uk</a>
                 <img src={JW} alt="JW Products Web Development" />
                 <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                     <div className="projectsAbout__project__caseStudy__metrics">
@@ -112,7 +113,8 @@ const ProjectsAbout = () => (
             <div className="projectsAbout__project__caseStudy container">
                 <h2 className="subtitle">Strategy</h2>
                 <p>The reinvention of the H&H brand began with a modern facelift of its current e-commerce website, which introduced a refined landing page, product highlight recommendations, and a more streamlined checkout process. We also produced a high quality 40-page catalogue with feature photography and introduced a brand-new product range. These product catalogues were then distributed through the company’s annual mass mailing to existing customers. This campaign resulted in a 200% increase in sales compared to the same month of the previous year. We also refined existing PPC campaigns, introduced Shopping Ads, setup 3rd party sales platforms, and carried out consistent SEO maintenance. This produced fantastic results for the company’s online sales revenue.</p>
-                <img src={HH} alt="handh web development" />
+<p>You can view their website at <a href="https://www.hammondandharperoflondon.com" target="_blank">https://www.hammondandharperoflondon.com</a>             
+<img src={HH} alt="handh web development" />
                 <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                     <div className="projectsAbout__project__caseStudy__metrics">
                         <div className="projectsAbout__project__caseStudy__metrics__metric">
