@@ -71,7 +71,6 @@ const ProjectsAbout = () => (
             <div className="projectsAbout__project__caseStudy container">
                 <h2 className="subtitle">Strategy</h2>
                 <p>JW Security Products has supplied security seals nationwide for nearly 20 years. In 2019, we undertook the full redesign and development of their website, which moved from a quote only website to a full e-commerce website with over 80 products currently listed in their online catalogue. The e-commerce functionality allowed immediate sales revenue to be generated, which has continued to increase month to month. With the redesign of the company logo, a hero product catalogue design, PPC campaigns, SEO management, and high-quality digital advertisements, the company has expanded its online portfolio and continues to diversify its approach to the digital space.</p>
-<p>You can view their website at <a href="https://www.jwproducts.co.uk" target="_blank">www.jwproducts.co.uk</a></p>
                 <img src={JW} alt="JW Products Web Development" />
                 <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                     <div className="projectsAbout__project__caseStudy__metrics">
