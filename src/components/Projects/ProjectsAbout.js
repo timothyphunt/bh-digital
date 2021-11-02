@@ -137,6 +137,35 @@ const ProjectsAbout = () => (
             </div>
         </div>
 
+          <div className="projectsAbout__project__caseStudy container">
+                <h2 className="subtitle">Strategy</h2>
+                <p>The new Lockie Church design allows customs to easily customise their envelope printing using a simple yet structured sectioned system. There is also an integrated renewal system which enables users to checkout a previous order at the click of a button. Simple, elegant and effective was the strategy with this website.</p>
+<p>You can view their website at <a href="https://www.lockiechurch.com" target="_blank">www.lockiechurch.com</a>.         
+<img src={JW} alt="JW Products Web Development" />
+                <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+                    <div className="projectsAbout__project__caseStudy__metrics">
+                        <div className="projectsAbout__project__caseStudy__metrics__metric">
+                            <span>85%</span>
+                            <span>Web Traffic Increase</span>
+                        </div>
+                        <div className="projectsAbout__project__caseStudy__metrics__metric">
+                            <span>44%</span>
+                            <span>SEO Keyword Improvements</span>
+                        </div>
+                        <div className="projectsAbout__project__caseStudy__metrics__metric">
+                            <span>66%</span>
+                            <span>New Customer Increase</span>
+                        </div>
+                        <div className="projectsAbout__project__caseStudy__metrics__metric">
+                            <span>28%</span>
+                            <span>Quote Enquiry Increase</span>
+                        </div>
+                    </div>
+                </ScrollAnimation>
+            </div>
+        </div>
+
+
         {/* <div className="projectsAbout__project" id="islandescape">
             <div className="projectsAbout__project__hero" id="islandescape--hero">
                 <svg className="projectsAbout__project__wavyDiv--top" id="" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1416.99 174.01">
